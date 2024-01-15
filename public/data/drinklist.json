@@ -1,0 +1,79 @@
+[
+    {
+        "ID": 1,
+        "Name": "Aviation",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Barr Hill|.5 oz lemon juice|.5 oz Luxardo|.25 oz R&W Violet|.25 oz simple|Shake, strain|Coupe|Cherry",
+        "Tags": "classic|sassafras|citrus|floral|gin"
+    },
+    {
+        "ID": 2,
+        "Name": "Pinkerton",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Barr Hill|.5 oz lemon juice|.5 oz Chambord|.5 oz St Germain|Shake, strain|Coupe|Lemon chip",
+        "Tags": "classic|sassafras|citrus|sweet|gin"
+    },
+    {
+        "ID": 3,
+        "Name": "Sassafras Gimlet",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz grapefruit infused gin1 oz lime juice|.75 oz simple syrup|3 dash grapefruit bitters|Shake, strain|Coupe|Lime chip",
+        "Tags": "sassafras|citrus|bitters|gin"
+    },
+    {
+        "ID": 4,
+        "Name": "Bees Knees",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Barr Hill|.75 oz lemon juice|.5 oz honey syrup|.25 oz lavender syrup|Shake, strain|Coupe|1 tsp cherry infused brandy|Cherry",
+        "Tags": "classic|sassafras|citrus|gin"
+    },
+    {
+        "ID": 5,
+        "Name": "St. Rick",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Hendricks|1 oz St Germain||.5 oz lime juice|.5 oz cucumber juice|Basil muddle|Shake, strain|Coupe|Cucumber slice",
+        "Tags": "sassafras|cucumber|citrus|gin|muddled|herbaceous|floral"
+    },
+    {
+        "ID": 6,
+        "Name": "Gypsy Eyes",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Bluecoat|1 oz Aperol|.5 oz grapefruit juice|.5 oz lime juice|Shake, strain|Coupe|Lime chip|Spritz chartreuse",
+        "Tags": "sassafras|death & co|citrus|bittersweet"
+    },
+    {
+        "ID": 7,
+        "Name": "Sloe Gin Fizz",
+        "Menu": "Sassafras",
+        "Recipe": "1 oz Hayman's|1 oz Plymouth|.5 oz lemon juice|.5 oz simple syrup|Egg white|Dry+wet shake, dump|Collins|Lemon twist",
+        "Tags": "classic|sassafras|citrus|egg white|gin"
+    },
+    {
+        "ID": 8,
+        "Name": "Corpse Reviver No.2",
+        "Menu": "Sassafras",
+        "Recipe": "1 oz Plymouth|1 oz Cointreau|1 oz Cocchi Americano|1 oz lemon juice|Shake, strain|Coupe|Spritz absinthe|Lemon twist",
+        "Tags": "classic|sassafras|citrus|equal part|absinthe|gin"
+    },
+    {
+        "ID": 9,
+        "Name": "Negroni",
+        "Menu": "Sassafras",
+        "Recipe": "1.5 oz Bluecoat Barrel|.75 oz Punt e Mes|.75 oz Campari|Stir, strain|Coupe|Orange twist",
+        "Tags": "classic|sassafras|bittersweet|amaro|gin|vermouth"
+    },
+    {
+        "ID": 10,
+        "Name": "Vesper",
+        "Menu": "Sassafras",
+        "Recipe": "1.5 oz Plymouth|1 oz Stateside|.5 oz Cocchi Americano|Stir, strain|Nick & Nora|Lemon twist",
+        "Tags": "classic|sassafras|boozy|gin|vodka|split base"
+    },
+    {
+        "ID": 11,
+        "Name": "Temptress",
+        "Menu": "Sassafras",
+        "Recipe": "1.5 oz Blume Marillen|1.5 oz Byrrh|Stir, strain|Coupe|Lemon twist",
+        "Tags": "sassafras|boozy|eau de vie|brandy|vermouth|"
+    }
+]
