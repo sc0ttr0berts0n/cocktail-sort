@@ -1,16 +1,26 @@
 <script setup lang="ts">
 import Drink from './Drink.vue';
-import drinkData from '../../public/data/drinklist.json';
+import { global } from '../store/store';
 </script>
 
 <template>
-    <div class="drink-list">
-        <Drink v-for="drink in drinkData" :key="drink" :metadata="drink" />
+    <div class="drink-list--wrapper">
+        <Drink
+            v-for="(drink, index) in global.drinks"
+            :key="index"
+            :metadata="drink"
+        />
     </div>
 </template>
 
-<style scoped>
-.drink-list > *:nth-child(2n) {
-    background-color: #ffffff11;
+<style lang="scss" scoped>
+.drink-list {
+    &--wrapper {
+        padding: 0.5rem;
+        margin-bottom: 4rem;
+        & > *:nth-child(even) {
+            background-color: #ffffff11;
+        }
+    }
 }
 </style>

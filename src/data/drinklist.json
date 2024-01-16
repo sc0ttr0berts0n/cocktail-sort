@@ -1,0 +1,1553 @@
+[
+    {
+        "Name": "AVIATION",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Barr Hill|.5 oz lemon juice|.5 oz Luxardo|.25 oz R&W Cherry|.25 oz simple syrup|Shake, strain|Coupe|Cherry"
+    },
+    {
+        "Name": "PINKERTON",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Barr Hill|.5 oz lemon juice|.5 oz Chambord|.5 oz St Germain|Shake, strain|Coupe|Lemon chip"
+    },
+    {
+        "Name": "SASSAFRAS GIMLET",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz grapefruit infused gin|1 oz lime juice|.75 oz simple syrup|3 dash grapefruit bitters|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "BEES KNEES",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Barr Hill|.75 oz lemon juice|.5 oz honey syrup|.25 oz lavender syrup|Shake, strain|Coupe|Cherry|1 tsp cherry infused brandy"
+    },
+    {
+        "Name": "ST. RICK",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Hendricks|1 oz St Germain|.5 oz cucumber juice|.5 oz lime juice|Basil muddle|Shake, strain|Coupe|Cucumber slice"
+    },
+    {
+        "Name": "GYPSY EYES",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Bluecoat|1 oz Aperol|.5 oz lime juice|.5 oz grapefruit juice|Shake, strain|Coupe|Chartreuse spritz|Lime chip"
+    },
+    {
+        "Name": "SLOE GIN FIZZ",
+        "Menu": "Sassafras",
+        "Recipe": "1 oz Plymouth|1 oz sloe gin|.5 oz lemon juice|.5 oz simple syrup|Egg white|Dry+wet shake, dump|Collins|Lemon twist"
+    },
+    {
+        "Name": "CORPSE REVIVER NO.2",
+        "Menu": "Sassafras",
+        "Recipe": "1 oz Plymouth|1 oz Cointreau|1 oz Cocchi|1 oz lemon juice|Shake, strain|Coupe|Absinthe spritz|Lemon twist"
+    },
+    {
+        "Name": "NEGRONI",
+        "Menu": "Sassafras",
+        "Recipe": "1.5 oz Bluecoat Barrel|.75 oz Punt e Mes|.75 oz Campari|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "VESPER",
+        "Menu": "Sassafras",
+        "Recipe": "1.5 oz Plymouth|1 oz Stateside|.5 oz Cocchi|Stir, strain|Nick & Nora|Lemon twist"
+    },
+    {
+        "Name": "TEMPTRESS",
+        "Menu": "Sassafras",
+        "Recipe": "1.5 oz Byrrh|1.5 oz Blume Marillen|Stir, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "SIDECAR",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Korbel|1 oz Cointreau|.5 oz lemon juice|.25 oz honey syrup|Shake, strain|Coupe|Sugar half rim|Lemon chip"
+    },
+    {
+        "Name": "PISCO SOUR",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Capel|1 oz simple syrup|.5 oz lemon juice|.5 oz lime juice|Egg white|Dry+wet shake, strain|Coupe|Angostura art"
+    },
+    {
+        "Name": "BOBBY BURNS",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Famous Grouse|1 oz Punt e Mes|.5 oz Drambuie|4 dash Angostura|Stir, strain|Nick & Nora|Cherry"
+    },
+    {
+        "Name": "POST MODERN",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Famous Grouse|1 oz sloe gin|.5 oz lemon juice|.5 oz honey syrup|Shake, strain|Coupe|Lemon chip"
+    },
+    {
+        "Name": "PENICILLIN",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Famous Grouse|1.5 oz honey syrup|.75 oz lemon juice|.5 oz ginger juice|Shake, dump|Collins|Laphroaig spritz|Lemon chip"
+    },
+    {
+        "Name": "OLD FASHIONED",
+        "Menu": "Sassafras",
+        "Recipe": "1 tbsp cherry infused brandy|.25 oz simple syrup|4 dash Angostura|Orange wedge muddle|2 oz Kinsey|Short stir, strain|Rocks|Orange twist, cherry"
+    },
+    {
+        "Name": "BOULEVARDIER",
+        "Menu": "Sassafras",
+        "Recipe": ".2 oz Kinsey|.5 oz Campari|.25 oz Carpano|.25 oz Benedictine|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "SUMMER IN MANHATTAN",
+        "Menu": "Sassafras",
+        "Recipe": "2.5 oz Jefferson|.5 oz Cointreau|4 dash orange bitters|Stir, strain|Nick & Nora|Orange twist"
+    },
+    {
+        "Name": "SAZERAC",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Kinsey|1 oz Korbel|.5 oz simple syrup|2 dash Angostura|6 dash Peychaud's|Stir, strain|Coupe|Absinthe spritz|Lemon twist"
+    },
+    {
+        "Name": "BROOKLYN",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Templeton|.75 oz Dolin Dry|.25 oz Byrrh|.25 oz Luxardo|Stir, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "THE OMBIBULOUS",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Woodford|.75 oz Sfumato|.25 oz Luxardo|.25 oz R&W Cherry|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "VIEUX CARRE",
+        "Menu": "Sassafras",
+        "Recipe": "Build in rocks|1 oz Kinsey|1 oz Punt e Mes|1 oz Korbel|.25 oz Benedictine|1 dash Angostura|1 dash Peychaud's|Short stir|Flamed orange twist"
+    },
+    {
+        "Name": "TORONTO",
+        "Menu": "Sassafras",
+        "Recipe": "2.5 oz Bulleit Rye|.5 oz fernet|.25 oz Benedictine|Stir, strain|Coupe|Cherry"
+    },
+    {
+        "Name": "WHISKEY SOUR",
+        "Menu": "Sassafras",
+        "Recipe": "1.5 oz Keystone Whiskey|.5 oz lemon juice|.5 oz lime juice|.5 oz simple syrup|3 dash Angostura|Egg white|Dry+wet shake, dump|Collins|Top cherry brandy|Cherry"
+    },
+    {
+        "Name": "MEXICAN FIRING SQUAD",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Keystone Tequila|1 oz lime juice|.5 oz jalapeno syrup|.25 oz grenadine|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "MEXICAN MULE",
+        "Menu": "Sassafras",
+        "Recipe": "Build in copper mug|1.5 oz Del Maguey Vida|.5 oz El Jimador|.75 oz ginger juice|.5 oz jalapeno syrup|.5 oz lime juice|Top ginger ale"
+    },
+    {
+        "Name": "OAXACA OLD FASHIONED",
+        "Menu": "Sassafras",
+        "Recipe": "1 tbsp cherry infused brandy|.25 oz jalapeno syrup|3 dash Aztec bitters|Orange wedge muddle|1 oz Del Maguey Vida|.5 oz Ancho Reyes Verde|.5 oz El Jimador|Short stir, strain|Rocks|Lime chip, cherry"
+    },
+    {
+        "Name": "PALOMA",
+        "Menu": "Sassafras",
+        "Recipe": "Build in Collins|Salt rim|1.5 oz Altos Plata|.5 oz lime juice|.5 oz jalapeno syrup|.5 oz grapefruit juice|Top Pellegrino|Lime chip"
+    },
+    {
+        "Name": "HER WORD",
+        "Menu": "Sassafras",
+        "Recipe": "1 oz El Jimador|1 oz R&W Peach|1 oz Cocchi|1 oz lemon juice|Shake, strain|Coupe|Lemon chip"
+    },
+    {
+        "Name": "CLASSIC MARGARITA",
+        "Menu": "Sassafras",
+        "Recipe": "1.5 oz Jose Cuervo|1.5 oz triple sec|1 oz lime juice|Shake, dump|Goblet|Salt|Lime chip"
+    },
+    {
+        "Name": "POMEGRANATE MARTINI",
+        "Menu": "Sassafras",
+        "Recipe": "4 oz pom batch|Shake, strain|Nick & Nora|Orange chip"
+    },
+    {
+        "Name": "ESPRESSO MARTINI WITH",
+        "Menu": "Sassafras",
+        "Recipe": "2.5 oz espresso batch|.5 oz Bailey's|Shake, strain|Nick & Nora"
+    },
+    {
+        "Name": "ESPRESSO MARTINI",
+        "Menu": "Sassafras",
+        "Recipe": "3 oz espresso batch|Shake, strain|Nick & Nora"
+    },
+    {
+        "Name": "MOSCOW MULE",
+        "Menu": "Sassafras",
+        "Recipe": "Build in copper mug|2 oz Faber Vanilla|.75 oz ginger juice|.5 oz lime juice|.5 oz simple syrup|Top ginger ale"
+    },
+    {
+        "Name": "FRENCH SNAP",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Faber Citrus|1 oz Canton|.25 oz lemon juice|Shake, strain|Lemon chip"
+    },
+    {
+        "Name": "BARBADOS REDUX",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Single Prop|1 oz Velvet Falernum|1 oz lime juice|3 dash grapefruit bitters|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "KERALA",
+        "Menu": "Sassafras",
+        "Recipe": "1 oz Buffalo Trace|1 oz Scarlet Ibis|.5 oz cardamom syrup|.5 oz lemon juice|.5 oz pineapple juice|1 dash Angostura|1 dash Peychaud's|Shake, strain|Coupe|Lemon chip"
+    },
+    {
+        "Name": "DARK & STORMY",
+        "Menu": "Sassafras",
+        "Recipe": "Build in Collins|1.5 oz Goslings|1 oz Velvet Falernum|.75 oz ginger juice|.5 oz lime juice|Top ginger ale|Lime chip"
+    },
+    {
+        "Name": "GREEN MILE",
+        "Menu": "Sassafras",
+        "Recipe": "2 oz Bacardi|1 oz lime juice|.5 oz Green Chartreuse|.5 oz simple syrup|Basil muddle|Shake, strain|Coupe|Lime chip|Absinthe spritz"
+    },
+    {
+        "Name": "CAIPIRINHA",
+        "Menu": "Sassafras",
+        "Recipe": ".75 oz simple syrup|.66 oz lime juice|Lime slice x3 muddle|2 oz cachaÃ§a|Shake, dump|Rocks|Lime chip"
+    },
+    {
+        "Name": "LAVENDER CHAMPAGNE",
+        "Menu": "Sassafras",
+        "Recipe": "Build in flute|.25 oz lavender syrup|Top champagne|Blueberries"
+    },
+    {
+        "Name": "FRENCH 75",
+        "Menu": "Sassafras",
+        "Recipe": "1.5 oz Amsterdam|.5 oz lemon juice|.5 oz simple syrup|3 dash orange bitters|Shake, strain|Flute|Top champagne|Lemon twist"
+    },
+    {
+        "Name": "FRENCH 95",
+        "Menu": "Sassafras",
+        "Recipe": "1.5 oz Buffalo Trace|.5 oz lemon juice|.5 oz simple syrup|3 dash Angostura|Shake, strain|Flute|Top champagne|Lemon twist"
+    },
+    {
+        "Name": "AIRMAIL 48",
+        "Menu": "Sassafras",
+        "Recipe": "1.5 oz Mt Gay|.5 oz lime juice|.5 oz honey syrup|Shake, strain|Flute|Top champagne"
+    },
+    {
+        "Name": "PERUVIAN 75",
+        "Menu": "Sassafras",
+        "Recipe": "1.5 oz Capel|.5 oz grapefruit juice|.25 oz Luxardo|.25 oz lemon juice|Shake, strain|Flute|Top champagne|Lemon twist"
+    },
+    {
+        "Name": "FRENCH DRIP",
+        "Menu": "Sassafras",
+        "Recipe": "1.5 oz absinthe|.25 oz simple syrup|Stir, strain|Glencairn"
+    },
+    {
+        "Name": "IN THE PURPLE",
+        "Menu": "48 Record Bar",
+        "Recipe": "1.5 oz Bluecoat|.75 oz lemon juice|.5 oz R&W Cherry|.5 oz Faber Pom|.25 oz simple syrup|Egg white|Wet+dry shake, strain|Nick & Nora|Float Chambord"
+    },
+    {
+        "Name": "DRY DOCK",
+        "Menu": "48 Record Bar",
+        "Recipe": "Build in Collins|2 oz Bluecoat|1 oz grapefruit juice|.5 oz lemon juice|.5 oz cardamom syrup|.5 oz lavender syrup|Top club soda|Lemon twist"
+    },
+    {
+        "Name": "PIMM POM",
+        "Menu": "48 Record Bar",
+        "Recipe": "2 oz Bluecoat|.75 oz pomegranate juice|.75 oz honey syrup|.5 oz lemon juice|.5 oz Pimm's No.1|4 dash cherry bitters|Shake, strain|Coupe|Lemon chip"
+    },
+    {
+        "Name": "BOND GIRL",
+        "Menu": "48 Record Bar",
+        "Recipe": "2.5 oz Bluecoat Barrel|1 oz Cocchi|2 dash orange bitters|3 dash grapefruit bitters|Stir, strain|Nick & Nora|Orange twist"
+    },
+    {
+        "Name": "BITTERSWEET SPRITZ",
+        "Menu": "48 Record Bar",
+        "Recipe": "Built in wine glass|3 oz Cocchi|.5 oz Genepi|.25 oz lemon juice|2 dash orange bitters|2 dash grapefruit bitters|Top club soda|Lemon twist"
+    },
+    {
+        "Name": "CHRYSANTHEMUM",
+        "Menu": "48 Record Bar",
+        "Recipe": "2.5 oz Lo-Fi Dry|.5 oz Benedictine|.25 oz absinthe|Stir, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "INDUSTRY NEGRONI",
+        "Menu": "48 Record Bar",
+        "Recipe": "Build in rocks|1 oz Green Chartreuse|1 oz fernet|1 oz Campari|3 dash orange bitters|Short stir|Flamed orange twist"
+    },
+    {
+        "Name": "KIKI NOELLE",
+        "Menu": "48 Record Bar",
+        "Recipe": "1.5 oz El Jimador|1 oz pineapple juice|.75 oz Ancho Reyes Verde|.75 oz lime juice|.5 oz jalapeno syrup|.25 oz ginger juice|Shake, dump|Collins|Lime chip"
+    },
+    {
+        "Name": "PARIS IS BURNING",
+        "Menu": "48 Record Bar",
+        "Recipe": "1 oz Bluecoat Barrel|1 oz Del Maguey Vida|1 oz pineapple juice|.5 oz St Germain|.5 oz lemon juice|.25 oz simple syrup|Long shake, strain|Nick & Nora|Angostura art"
+    },
+    {
+        "Name": "MEXICO CITY",
+        "Menu": "48 Record Bar",
+        "Recipe": "1.5 oz Del Maguey Vida|1.5 oz Cynar|.5 oz Byrrh|.25 oz Luxardo|3 dash orange bitters|Stir, strain|Nick & Nora|Flamed orange twist"
+    },
+    {
+        "Name": "30TH CENTURY MAN",
+        "Menu": "48 Record Bar",
+        "Recipe": "Build in rocks|1.5 oz espresso infused vodka|1.5 oz Del Maguey Vida|.5 oz maple syrup|1 dash Angostura|1 dash orange bitters|1 dash Aztec bitters|Short stir|Orange twist"
+    },
+    {
+        "Name": "FRENCH 78",
+        "Menu": "48 Record Bar",
+        "Recipe": "1.5 oz Korbel|.25 oz Cointreau|.25 oz lemon juice|.25 oz orange juice|Shake, strain|Flute|Top champagne|Lemon twist"
+    },
+    {
+        "Name": "1794",
+        "Menu": "48 Record Bar",
+        "Recipe": "1.5 oz Kinsey|.75 oz Campari|.75 oz Carpano|.25 oz Luxardo|.25 oz absinthe|2 dash Aztec bitters|Stir, strain|Coupe|Cherry"
+    },
+    {
+        "Name": "HEMINGWAY DAIQUIRI",
+        "Menu": "48 Record Bar",
+        "Recipe": "2 oz Single Prop|1.5 oz grapefruit juice|.5 oz Luxardo|.5 oz lime juice|.25 oz simple syrup|Shake, strain|Coupe|Lime slice"
+    },
+    {
+        "Name": "LAVERNE",
+        "Menu": "48 Record Bar",
+        "Recipe": "Build in Collins|2 oz Tito's|.5 oz lemon juice|.5 oz lime juice|.5 oz grenadine|.5 oz R&W Cherry|.25 oz Luxardo|4 dash cherry bitters|Top club soda|Cherry"
+    },
+    {
+        "Name": "RED INK",
+        "Menu": "48 Record Bar",
+        "Recipe": "1 oz Faber Vanilla|1 oz Scarlet Ibis|.5 oz Faber Citrus|.5 oz cardamom syrup|.5 oz lemon juice|.25 oz lavender syrup|1 oz half & half|Shake, dump|Collins|R&W Cherry down side"
+    },
+    {
+        "Name": "ROME WITH A VIEW",
+        "Menu": "Classics",
+        "Recipe": "Build in Collins|1 oz Campari|1 oz Dolin Dry|1 oz lime juice|.75 oz simple syrup|Top club soda|Lime slice"
+    },
+    {
+        "Name": "ITALIAN GENTLEMAN",
+        "Menu": "Classics",
+        "Recipe": "2 oz Buffalo Trace|1 oz Campari|.75 oz lemon juice|.5 oz simple syrup|4 dash peach bitters|Shake, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "FINAL ARGUMENT",
+        "Menu": "Classics",
+        "Recipe": "1 oz Del Maguey Vida|1 oz lime juice|1 oz Luxardo|1 oz Green Chartreuse|Shake, strain|Coupe|Cherry"
+    },
+    {
+        "Name": "CLASSIC DAIQUIRI",
+        "Menu": "Classics",
+        "Recipe": "2 oz Bacardi|1 oz lime juice|.75 oz simple syrup|Shake, strain|Coupe|Lime slice"
+    },
+    {
+        "Name": "INDUSTRY SOUR",
+        "Menu": "Classics",
+        "Recipe": "1 oz fernet|1 oz Green Chartreuse|1 oz simple syrup|1 oz lime juice|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "MINT JULEP",
+        "Menu": "Classics",
+        "Recipe": "2 dash Angostura|.75 oz mint syrup|Mint muddle|2.5 oz Buffalo Trace|Ice & mint muddle|Short stir, strain|Water glass, crushed ice|Mint leaf"
+    },
+    {
+        "Name": "ALASKA",
+        "Menu": "Classics",
+        "Recipe": "2.5 oz Barr Hill|.75 oz Yellow Chartreuse|4 dash orange bitters|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "EPISCOPAL",
+        "Menu": "Classics",
+        "Recipe": "Build in rocks|1.5 oz Green Chartreuse|.75 oz Yellow Chartreuse|Short stir|Lemon chip"
+    },
+    {
+        "Name": "GODFATHER",
+        "Menu": "Classics",
+        "Recipe": "Build in rocks|1.5 oz JW Black|1 oz amaretto|2 dash cherry bitters|Short stir|Cherry"
+    },
+    {
+        "Name": "AMARETTO SOUR",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz amaretto|1 oz lemon juice|.5 oz Buffalo Trace|.5 oz R&W Cherry|.25 oz simple syrup|4 dash cherry bitters|3 dash Angostura|Egg white|Dry+wet shake, dump|Collins|Cherry, orange wedge"
+    },
+    {
+        "Name": "CORN & OIL",
+        "Menu": "Classics",
+        "Recipe": "Build in rocks|2 oz Goslings|.5 oz Velvet Falernum|3 dash Angostura|Short stir"
+    },
+    {
+        "Name": "HANKY PANKY",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Bluecoat Barrel|1.5 oz Carpano|.5 oz fernet|Stir, strain|Coupe|Cherry"
+    },
+    {
+        "Name": "FRENCH MARTINI",
+        "Menu": "Classics",
+        "Recipe": "2 oz Faber Vanilla|1 oz Chambord|.75 oz pineapple juice|.25 oz lemon juice|Shake, strain|Nick & Nora|Lemon chip"
+    },
+    {
+        "Name": "NECROMANCER",
+        "Menu": "Classics",
+        "Recipe": "1 oz absinthe|1 oz St Germain|1 oz Cocchi|1 oz lemon juice|.25 oz New Amsterdam|Shake, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "SUNFLOWER",
+        "Menu": "Classics",
+        "Recipe": "1 oz Bluecoat|1 oz Cointreau|1 oz St Germain|1 oz lemon juice|Shake, strain|Coupe|Absinthe spritz|Lemon twist"
+    },
+    {
+        "Name": "WHITE LADY",
+        "Menu": "Classics",
+        "Recipe": "2 oz Bluecoat|1 oz triple sec|1 oz lemon juice|1 dash Aztec bitters|Egg white|Dry+wet shake, strain|Coupe|Angostura art"
+    },
+    {
+        "Name": "OLD CUBAN",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Bacardi|.5 oz mint syrup|.5 oz lime juice|2 dash Angostura|Mint muddle|Shake, strain|Flute|Top champagne|Lemon twist"
+    },
+    {
+        "Name": "CHAMPAGNE COCKTAIL",
+        "Menu": "Classics",
+        "Recipe": "Build in flute|Sugar cube|6 dash Angostura|Top champagne"
+    },
+    {
+        "Name": "EASTSIDE",
+        "Menu": "Classics",
+        "Recipe": "2 oz Hendricks|1 oz lime juice|.75 oz mint syrup|.5 oz cucumber juice|Mint muddle|Shake, strain|Coupe|Mint leaf"
+    },
+    {
+        "Name": "BROWN DERBY",
+        "Menu": "Classics",
+        "Recipe": "2 oz Jefferson|1 oz grapefruit juice|.5 oz honey syrup|.25 oz lemon juice|Shake, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "CHARTREUSE SWIZZLE",
+        "Menu": "Classics",
+        "Recipe": "Build in Collins|1.5 oz Green Chartreuse|1 pineapple juice|.75 oz lime juice|.5 oz Velvet Falernum|Crushed ice|Lime chip"
+    },
+    {
+        "Name": "QUEEN’S PARK SWIZZLE",
+        "Menu": "Classics",
+        "Recipe": "Build in Collins|.5 oz mint syrup|Mint muddle|2 oz Goslings|.5 oz lime juice|Crushed ice|Top Angostura"
+    },
+    {
+        "Name": "GREENPOINT",
+        "Menu": "Classics",
+        "Recipe": "2 oz Kinsey|.5 oz Dolin Red|.5 oz Yellow|2 dash Angostura|2 dash Peychaud's|Stir, strain|Coupe|Cherry"
+    },
+    {
+        "Name": "IMPROVED WHISKEY COCKTAIL (NEW FASHIONED)",
+        "Menu": "Classics",
+        "Recipe": "Build in rocks|2 dash Angostura|2 dash Peychaud's|2 oz Woodford|.5 oz Luxardo|.25 oz absinthe|Short stir|Flamed lemon juice twist"
+    },
+    {
+        "Name": "WHITE NEGRONI",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Bluecoat|1 oz Cocchi|1 oz Lo-Fi Sweet|6 dash Peychaud's|Stir, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "EL PRESIDENTE",
+        "Menu": "Classics",
+        "Recipe": "2 oz Bacardi|1 oz Lo-Fi Sweet|.5 oz Cointreau|.25 oz grenadine|Stir, strain|Coupe|Cherry, orange twist"
+    },
+    {
+        "Name": "TUXEDO NO.2",
+        "Menu": "Classics",
+        "Recipe": "2.5 oz Plymouth|.5 oz Lo-Fi Sweet|.25 oz Luxardo|3 dash orange bitters|Stir, strain|Nick & Nora|Absinthe spritz|Lemon twist, cherry"
+    },
+    {
+        "Name": "PINA COLADA",
+        "Menu": "Classics",
+        "Recipe": "2 oz Bacardi|1 oz pineapple juice|1 oz cream of coconut|.5 oz lime juice|Shake, dump|Goblet|Lime slice"
+    },
+    {
+        "Name": "AMERICANO",
+        "Menu": "Classics",
+        "Recipe": "Build in Collins|1 oz Campari|1 oz Carpano|Top club soda|Orange wedge"
+    },
+    {
+        "Name": "BIJOU",
+        "Menu": "Classics",
+        "Recipe": "1 oz Bluecoat|1 oz Dolin Red|1 oz Green Chartreuse|2 dash orange bitters|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "CORPSE REVIVER NO.1",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Hennessy|.75 oz calvados|.75 oz Punt e Mes|Stir, strain|Coupe|Cherry"
+    },
+    {
+        "Name": "SCOFFLAW",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Kinsey|.5 oz Lo-Fi Sweet|.5 oz Dolin Dry|.5 oz lemon juice|.5 oz grenadine|Shake, strain|Nick & Nora|Lemon twist"
+    },
+    {
+        "Name": "DUTCH COURAGE",
+        "Menu": "Classics",
+        "Recipe": "Build in rocks|2 oz Bluecoat Barrel|.5 oz honey syrup|3 dash Angostura|3 dash orange bitters|Short stir|Cherry"
+    },
+    {
+        "Name": "TIPPERARY",
+        "Menu": "Classics",
+        "Recipe": "2 oz Tullamore|1 oz Punt e Mes|.75 oz Green Chartreuse|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "THEO LUCIEN",
+        "Menu": "Classics",
+        "Recipe": "2 oz Buffalo Trace|1 oz Dolin Dry|1 oz Cynar|Stir, strain|Nick & Nora|Cherry"
+    },
+    {
+        "Name": "CLOVER CLUB",
+        "Menu": "Classics",
+        "Recipe": "2 oz Barr Hill|1 oz lemon juice|1 oz raspberry syrup|Egg white|Dry+wet shake, strain|Coupe|Blueberry skewer"
+    },
+    {
+        "Name": "SWISS CARTEL",
+        "Menu": "Classics",
+        "Recipe": "1 oz El Jimador|1 oz Punt e Mes|1 oz Campari|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "RIGHT HAND",
+        "Menu": "Classics",
+        "Recipe": "2 oz Mt Gay|1 oz Dolin Red|1 oz Campari|2 dash Aztec bitters|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "JUNGLE BIRD",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Mt Gay|.75 oz Campari|.5 oz simple syrup|.5 oz lime juice juice|2 oz pineapple juice|Shake, dump|Collins|Lime chip"
+    },
+    {
+        "Name": "SUFFERING BASTARD",
+        "Menu": "Classics",
+        "Recipe": "Build in Collins|1 oz Buffalo Trace|1 oz Bluecoat Barrel|1 oz lime juice|.5 oz ginger juice|.25 oz simple syrup|2 dash Angostura|Top ginger ale|Orange wedge, mint leaf"
+    },
+    {
+        "Name": "SEX ON THE BEACH",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Faber Citrus|1 oz R&W Peach|1.5 oz orange juice|1 oz cranberry juice|2 dash peach bitters|2 dash orange bitters|Shake, dump|Collins|Orange chip"
+    },
+    {
+        "Name": "POINSETTIA",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Cointreau|.75 oz cranberry juice|.25 oz lemon juice|3 dash orange bitters|Shake, strain|Flute|Top champagne|Orange twist"
+    },
+    {
+        "Name": "REMEMBER THE MAINE",
+        "Menu": "Classics",
+        "Recipe": "2 oz Kinsey|.75 oz Punt e Mes|.25 oz R&W Cherry|Stir, strain|Coupe|Absinthe spritz|Cherry"
+    },
+    {
+        "Name": "WHITE RUSSIAN",
+        "Menu": "Classics",
+        "Recipe": "Build in rocks|1.5 oz Tito’s|1 oz Kahlua|Top half & half"
+    },
+    {
+        "Name": "COSMOPOLITAN",
+        "Menu": "Classics",
+        "Recipe": "2 oz Faber Citrus|1.5 oz triple sec|.5 oz lime juice|.5 oz cranberry juice|Shake, strain|Nick & Nora|Lime chip"
+    },
+    {
+        "Name": "RUSTY NAIL",
+        "Menu": "Classics",
+        "Recipe": "Build in rocks|1 oz Dewars|1 oz Drambuie|Short stir"
+    },
+    {
+        "Name": "MUDSLIDE",
+        "Menu": "Classics",
+        "Recipe": "2 oz Faber Vanilla|1 oz Kahlua|1 oz Bailey’s|Shake, dump|Goblet|Grated chocolate"
+    },
+    {
+        "Name": "BLOOD & SAND",
+        "Menu": "Classics",
+        "Recipe": "1 oz Famous Grouse|1 oz Punt e Mes|1 oz R&W Cherry|1 oz orange juice|Shake, strain|Coupe|Orange chip"
+    },
+    {
+        "Name": "JOY DIVISION",
+        "Menu": "Classics",
+        "Recipe": "2 oz Plymouth|1 oz Dolin Dry|.5 oz Cointreau|.25 oz absinthe|Stir, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "MONKEY GLAND",
+        "Menu": "Classics",
+        "Recipe": "2 oz Bluecoat|1 oz orange juice|.25 oz absinthe|1 barspoon grenadine|Shake, strain|Coupe|Orange chip"
+    },
+    {
+        "Name": "RED HOOK",
+        "Menu": "Classics",
+        "Recipe": "2 oz Kinsey|.5 oz Punt e Mes|.5 oz Luxardo|Stir, strain|Coupe|Cherry"
+    },
+    {
+        "Name": "CHAMPS-ELYSEES",
+        "Menu": "Classics",
+        "Recipe": "2 oz Korbel|.75 oz lemon juice|.5 oz Green Chartreuse|.5 oz simple syrup|2 dash Angostura|Shake, strain|Coupe|Lemon chip"
+    },
+    {
+        "Name": "EL DIABLO",
+        "Menu": "Classics",
+        "Recipe": "Build in Collins|1.5 oz El Jimador|.5 oz Chambord|.5 oz lime juice|.5 oz ginger juice|.5 oz simple syrup|Top ginger ale|Lime chip"
+    },
+    {
+        "Name": "BOURBON RENEWAL",
+        "Menu": "Classics",
+        "Recipe": "2 oz Buffalo Trace|1 oz Chambord|1 oz lemon juice|.5 oz simple syrup|Shake, strain|Coupe|Lemon chip"
+    },
+    {
+        "Name": "CABLE CAR",
+        "Menu": "Classics",
+        "Recipe": "1 oz Scarlet Ibis|1 oz Captain Morgan|.5 oz Velvet Falernum|.5 oz triple sec|.5 oz lime juice|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "ROSITA",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz El Jimador|.5 oz Punt e Mes|.5 oz Dolin Dry|.5 oz Campari|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "DIVISION BELL",
+        "Menu": "Classics",
+        "Recipe": "1 oz Del Maguey Vida|.75 oz lime juice|.75 oz Aperol|.5 oz Luxardo|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "PLANTER’S PUNCH",
+        "Menu": "Classics",
+        "Recipe": "Build in Collins|1 oz Mt Gay|1 oz Goslings|.75 oz lime juice|.5 oz Velvet Falernum|.25 oz grenadine|3 dash Peychaud's|Flamed cinnamon stick + lime slice"
+    },
+    {
+        "Name": "MARY PICKFORD",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Scarlet Ibis|1.5 oz pineapple juice|.25 oz Luxardo|.25 oz grenadine|Shake, strain|Coupe glass|Cherry"
+    },
+    {
+        "Name": "SINGAPORE SLING",
+        "Menu": "Classics",
+        "Recipe": "1 oz Amsterdam|.5 oz R&W Cherry|.5 oz lime juice|.25 oz Grand Marnier|.25 oz Benedictine|.25 oz grenadine|3 oz pineapple juice|2 dash Angostura|Shake, strain|Pint|Cherry"
+    },
+    {
+        "Name": "GOLD RUSH",
+        "Menu": "Classics",
+        "Recipe": "2 oz Buffalo Trace|.75 oz lemon juice|.5 oz honey syrup|.25 oz lavender syrup|Shake, strain|Rocks|Lemon twist"
+    },
+    {
+        "Name": "WATER LILY",
+        "Menu": "Classics",
+        "Recipe": "1 oz Bluecoat|1 oz R&W Cherry|1 oz Cointreau|1 oz lemon juice|Shake, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "BRANDY CRUSTA",
+        "Menu": "Classics",
+        "Recipe": "2 oz Korbel|1 oz lemon juice|.5 oz Luxardo|.5 oz triple sec|Shake, strain|Coupe|Sugar half rim|Lemon chip"
+    },
+    {
+        "Name": "TOMMY’S MARGARITA",
+        "Menu": "Classics",
+        "Recipe": "2 oz Altos Plata|1 oz lime juice|.75 oz agave|4 dash orange bitters|Shake, dump|Goblet|Salt|Lime chip"
+    },
+    {
+        "Name": "JASMINE",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Barr Hill|1 oz lemon juice|.5 oz Cointreau|.5 oz Camparu|Shake, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "PEGU CLUB",
+        "Menu": "Classics",
+        "Recipe": "2 oz Bluecoat Barrel|1 oz Grand Marnier|1 oz lime juice|2 dash Angostura|2 dash orange bitters|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "NEGRONI SBAGLIATO",
+        "Menu": "Classics",
+        "Recipe": "1 oz Carpano|1 oz Campari|Stir, strain|Coupe|Top champagne|Orange twist"
+    },
+    {
+        "Name": "KINGSTON NEGRONI",
+        "Menu": "Classics",
+        "Recipe": "1 oz Scarlet Ibis|1 oz Campari|1 oz Punt e Mes|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "FANCY FREE",
+        "Menu": "Classics",
+        "Recipe": "2.5 oz Kinsey|.75 oz Luxardo|2 dash Angostura|2 dash orange bitters|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "MONTE CARLO",
+        "Menu": "Classics",
+        "Recipe": "2.5 oz Kinsey|.75 oz Benedictine|3 dash Angostura|Stir, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "BRANDY ALEXANDER",
+        "Menu": "Classics",
+        "Recipe": "2 oz Korbel|1 oz creme de cacao|1 oz half & half|Shake, strain|Nick & Nora|Grated nutmeg"
+    },
+    {
+        "Name": "BETWEEN THE SHEETS",
+        "Menu": "Classics",
+        "Recipe": "1 oz Scarlet Ibis|1 oz Korbel|1 oz Cointreau|1 oz lemon juice|Shake, strain|Lemon chip"
+    },
+    {
+        "Name": "OLD PAL",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Kinsey|1 oz Dolin Dry|.75 Campari|Stir, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "POET’S DREAM",
+        "Menu": "Classics",
+        "Recipe": "2 oz Kinsey|.5 oz Benedictine|.5 oz Dolin Dry|3 dash orange bitters|Stir, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "WISCONSIN OLD FASHIONED",
+        "Menu": "Classics",
+        "Recipe": "Build in water glass|.75 oz simple syrup|3 tbsp cherry brandy|Orange wedge + cherry muddle|2.5 oz Korbel|Crushed ice|Short stir|Top Sprite"
+    },
+    {
+        "Name": "SEA BREEZE",
+        "Menu": "Classics",
+        "Recipe": "Build in Collins|1.5 oz Tito's|1 oz grapefruit juice|Top cranberry juice"
+    },
+    {
+        "Name": "BAY BREEZE",
+        "Menu": "Classics",
+        "Recipe": "Build in Collins|1.5 oz Tito's|1 oz pineapple juice|Top cranberry juice"
+    },
+    {
+        "Name": "MONTELEONE",
+        "Menu": "Classics",
+        "Recipe": "1 oz Buffalo Trace|1 oz Korbel|1 oz Averna|3 dash cherry bitters|Stir, strain|Coupe|Cherry"
+    },
+    {
+        "Name": "MONTE CASSINO",
+        "Menu": "Classics",
+        "Recipe": "1 oz Kinsey|1 oz Yellow Chartreuse|1 oz Benedictine|1 oz lemon juice|Shake, strain|Coupe|Lemon chip"
+    },
+    {
+        "Name": "JACK ROSE",
+        "Menu": "Classics",
+        "Recipe": "2 oz calvados|1 oz lemon juice|.5 oz grenadine|Shake, strain|Coupe glass|Lemon chip"
+    },
+    {
+        "Name": "MR. BALI HAI",
+        "Menu": "Classics",
+        "Recipe": "Build in pint|1.5 oz Goslings|1.5 oz pineapple juice|1 oz Bacardi|1 oz lemon juice|.75 oz Kahlua|.5 oz simple syrup|Short stir|Cherry + orange twist"
+    },
+    {
+        "Name": "CHOCOLATE MARTINI",
+        "Menu": "Classics",
+        "Recipe": "2 oz Faber Vanilla|.75 oz Bailey's|.5 oz creme de cacao|.25 oz Averna|Shake, strain|Nick & Nora|Grated chocolate"
+    },
+    {
+        "Name": "MIDNIGHT STINGER",
+        "Menu": "Classics",
+        "Recipe": "1 oz Buffalo Trace|1 oz fernet|1 oz lemon juice|1 oz simple syrup|Shake, strain|Coupe|Mint leaf"
+    },
+    {
+        "Name": "ALGONQUIN",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Kinsey|.75 oz pineapple juice|.5 oz Lo-Fi Sweet|.5 oz Dolin Dry|3 dash Peychaud's|Shake, strain|Coupe|Cherry"
+    },
+    {
+        "Name": "COLLEEN BAWN",
+        "Menu": "Classics",
+        "Recipe": "1 oz Kinsey|1 oz Yellow Chartreuse|1 oz Benedictine|.25 oz simple syrup|Whole egg|Dry+wet shake, strain|Coupe|Grated nutmeg"
+    },
+    {
+        "Name": "REVOLVER",
+        "Menu": "Classics",
+        "Recipe": "Build in rocks|2 oz Buffalo Trace|.5 oz Kahlua|3 dash orange bitters bitters|Short stir|Flamed orange twist"
+    },
+    {
+        "Name": "BITTER GIUSEPPE",
+        "Menu": "Classics",
+        "Recipe": "2 oz Cynar|1 oz Byrrh|.25 oz lemon juice|Short shake, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "LAST WORD",
+        "Menu": "Classics",
+        "Recipe": "1 oz Bluecoat|1 oz Green Chartreuse|1 oz Luxardo|1 oz lime juice|Shake, strain|Coupe|Cherry"
+    },
+    {
+        "Name": "NAKED & FAMOUS",
+        "Menu": "Classics",
+        "Recipe": "1 oz Del Maguey Vida|1 oz Aperol|1 oz Yellow Chartreuse|1 oz lime juice|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "PURITAN",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Plymouth|1 oz Dolin Dry|1 oz Yellow Chartreuse|2 dash orange bitters|Stir, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "CAMEO KIRBY",
+        "Menu": "Classics",
+        "Recipe": "1 oz Bluecoat|1 oz Dolin Dry|.5 oz lime juice|.5 oz raspberry syrup|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "12 MILE LIMIT",
+        "Menu": "Classics",
+        "Recipe": "1 oz Single Prop|.5 oz Kinsey|.5 oz Korbel|.5 oz lemon juice|.5 oz grenadine|Shake, strain|Coupe|Cherry"
+    },
+    {
+        "Name": "LE FATIGUE",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Kinsey|.75 oz Luxardo|.75 oz Angostura|1 dash grapefruit bitters|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "SIN-CYN",
+        "Menu": "Classics",
+        "Recipe": "Build in rocks|1 oz Laphroaig|1 oz Punt e Mes|1 oz Cynar|Short stir|Orange twist"
+    },
+    {
+        "Name": "APPLETINI",
+        "Menu": "Classics",
+        "Recipe": "2 oz Tito's|1 oz Verger|.5 oz lemon juice|.25 grenadine|Shake, strain|Nick & Nora|Cherry"
+    },
+    {
+        "Name": "PAINKILLER",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Bacardi|1 oz cream of coconut|1 oz orange juice|.5 oz Cointreau|Shake, dump|Pint|Top pineapple juice|Grated nutmeg"
+    },
+    {
+        "Name": "IRISH CACTUS",
+        "Menu": "Classics",
+        "Recipe": "Build in rocks|2 oz Casamigos añejo|1 oz Bailey's|Short stir"
+    },
+    {
+        "Name": "ORGASM",
+        "Menu": "Classics",
+        "Recipe": "1 oz heavy cream|.5 oz Tito's|.5 oz amaretto|.5 oz creme de cacao|.5 oz Cointreau|Shake, strain|Coupe|Cherry"
+    },
+    {
+        "Name": "BAIE DU GALION",
+        "Menu": "Classics",
+        "Recipe": "Build in rocks|2 oz cachaça|.5 oz Green Chartreuse|.25 oz Drambuie|Short stir|Lemon twist"
+    },
+    {
+        "Name": "EEYORE’S REQUIEM",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Campari|1 oz Lo-Fi Sweet|.5 oz New Amsterdam|.25 oz fernet|.25 oz Cynar|3 dash orange bitters|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "CASINO",
+        "Menu": "Classics",
+        "Recipe": "2 oz Barr Hill|1 oz lemon juice|.75 oz Luxardo|3 dash orange bitters|Shake, strain|Nick & Nora|Cherry"
+    },
+    {
+        "Name": "SPICY FIFTY",
+        "Menu": "Classics",
+        "Recipe": "2 oz Faber Vanilla|.5 oz St Germain|.5 oz lime juice|.25 oz honey syrup|Shake, strain|Coupe|Tajin half rim|2 dash habanero tincture"
+    },
+    {
+        "Name": "FRENCH CONNECTION",
+        "Menu": "Classics",
+        "Recipe": "Build in rocks|1.5 oz Hennessy|1.5 oz amaretto|2 dash cherry bitters|Short stir|Cherry"
+    },
+    {
+        "Name": "CLOISTER",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Bluecoat|.5 oz Yellow Chartreuse|.5 oz grapefruit juice|.25 oz lemon juice|.25 oz simple syrup|Shake, strain|Coupe|Lemon chip"
+    },
+    {
+        "Name": "DE LA LOUISIANE",
+        "Menu": "Classics",
+        "Recipe": "2 oz Templeton|.75 oz Benedictine|.75 oz Carpano|.25 oz absinthe|4 dash Peychaud's|Stir, strain|Nick & Nora|Cherry"
+    },
+    {
+        "Name": "HARRY’S PICK-ME-UP",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Korbel|.5 oz grenadine|.5 oz lemon juice|4 dash cherry bitters|Shake, strain|Flute|Top champagne|Lemon twist"
+    },
+    {
+        "Name": "LEMON DROP",
+        "Menu": "Classics",
+        "Recipe": "2 oz Faber Citrus|1.5 oz triple sec|.75 oz lemon juice|.25 oz simple syrup|Shake, strain|Nick & Nora|Sugar rim|Lemon slice"
+    },
+    {
+        "Name": "NEW YORK SOUR",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz Buffalo Trace|.5 oz lemon juice|.5 oz lime juice|.5 oz simple syrup|3 dash Angostura|Egg white|Dry+wet shake, strain|Water glass|Float house cabernet|Cherry"
+    },
+    {
+        "Name": "DEVIL’S MARGARITA",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz El Jimador|1.5 oz triple sec|1 oz lime juice|Shake, dump|Water glass|Float house cabernet|Lime chip"
+    },
+    {
+        "Name": "MAI TAI",
+        "Menu": "Classics",
+        "Recipe": "1 oz Goslings|1 oz Bacardi|1 oz lime juice|.5 oz orgeat|.5 oz triple sec|2 dash Angostura|Shake, dump|Goblet|Mint leaf"
+    },
+    {
+        "Name": "ARMY & NAVY",
+        "Menu": "Classics",
+        "Recipe": "2 oz Bluecoat|1 oz lemon juice|1 oz orgeat|3 dash Angostura|Shake, strain|Nick & Nora"
+    },
+    {
+        "Name": "CAMERON’S KICK",
+        "Menu": "Classics",
+        "Recipe": "1 oz Tullamore|1 oz Famous Grouse|.75 oz lemon juice|.75 oz orgeat|Shake, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "BERMUDA HUNDRED",
+        "Menu": "Classics",
+        "Recipe": "1.5 oz New Amsterdam|1.5 oz pineapple juice|.75 oz Campari|.5 oz orgeat|.5 oz lime juice|Shake, dump|Collins|Cherry"
+    },
+    {
+        "Name": "TRINIDAD SOUR",
+        "Menu": "Classics",
+        "Recipe": "1 oz Angostura|1 oz orgeat|.75 oz lemon juice|.5 oz Kinsey|Shake, strain|Coupe"
+    },
+    {
+        "Name": "MAURESQUE",
+        "Menu": "Classics",
+        "Recipe": "Build in Collins|1 oz absinthe|1 oz orgeat|Top water"
+    },
+    {
+        "Name": "JAPANESE COCKTAIL",
+        "Menu": "Classics",
+        "Recipe": "2 oz Korbel|.5 oz orgeat|Shake, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "HUMUHUMUNUKUNUKUAPUA’A",
+        "Menu": "Classics",
+        "Recipe": "2 oz Bluecoat|.75 oz pineapple juice|.75 oz lemon juice|.5 oz orgeat|2 dash Peychaud's|Shake, dump|Collins|Cherry"
+    },
+    {
+        "Name": "MORNING GLORY",
+        "Menu": "Classics",
+        "Recipe": "Build in Collins|1 oz Kinsey|1 oz Korbel|.25 oz Grand Marnier|.25 oz absinthe|.25 oz simple syrup|Top club soda|Lemon twist"
+    },
+    {
+        "Name": "CONTESSA",
+        "Menu": "Classics",
+        "Recipe": "1 oz Barr Hill|1 oz Aperol|1 oz Dolin Dry|Stir, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "CELEBRATION",
+        "Menu": "Classics",
+        "Recipe": "1 oz Korbel|1 oz Campari|1 oz Dolin Red|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "KNICKERBOCKER",
+        "Menu": "Classics",
+        "Recipe": "2 oz Scarlet Ibis|.5 oz lime juice|.25 oz raspberry syrup|.25 oz Cointreau|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "RAMOS GIN FIZZ",
+        "Menu": "Classics",
+        "Recipe": "2 oz Bluecoat|1 oz simple syrup|.5 oz lemon juice|.5 oz lime juice|1 oz heavy cream|Egg white|10 minute dry shake, 2 minute wet shake, 3 minute dry shake, dump|Collins|Freeze|Sink club soda"
+    },
+    {
+        "Name": "SUNSCREEN",
+        "Menu": "",
+        "Recipe": "1 oz Single Prop|.5 oz Gunpowder|.5 oz Green Chartreuse|.5 oz lime juice|.5 oz Velvet Falernum|4 dash orange bitters|Mint muddle|Shake, strain|Coupe|Mint leaf"
+    },
+    {
+        "Name": "SUPERNOVA",
+        "Menu": "",
+        "Recipe": "2 oz Faber Vanilla|1 oz Cointreau|.5 oz lemon juice|.5 oz cranberry juice|.33 oz lavender syrup|.25 oz lime juice|4 dash orange bitters|Shake, strain|Nick & Nora|Lemon chip"
+    },
+    {
+        "Name": "SMOKE & MIRRORS",
+        "Menu": "",
+        "Recipe": "1.5 oz Famous Grouse|1 oz lime juice|.75 oz mint syrup|.5 oz Laphroaig|.25 oz absinthe|Mint leaf muddle|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "SMOKESCREEN",
+        "Menu": "",
+        "Recipe": "1.5 oz Famous Grouse|1 oz lime juice|.5 oz mint syrup|.5 oz Laphroaig|.5 oz Green Chartreuse|Mint leaf muddle|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "FAT THAI",
+        "Menu": "",
+        "Recipe": "1 oz Ancho Reyes Verde|1 oz ginger juice|.75 oz jalapeno syrup|.75 oz lime juice|.5 oz cardamom syrup|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "GREEN BLAST",
+        "Menu": "",
+        "Recipe": "1 oz absinthe|1 oz lime juice|1 oz simple syrup|.5 oz cucumber juice|5 dash rosewater|Shake, strain|Coupe|Cucumber slice"
+    },
+    {
+        "Name": "STOUT FLIP",
+        "Menu": "",
+        "Recipe": "2 oz Averna|1 oz Guinness|4 dash Angostura|Whole egg|Dry+wet shake, strain|Nick & Nora|Float Goslings|Grated chocolate"
+    },
+    {
+        "Name": "WRITTEN WORD",
+        "Menu": "",
+        "Recipe": "1 oz Bluecoat Barrel|1 oz Grand Marnier|1 oz Green Chartreuse|1 oz lime juice|Shake, strain|Coupe|Lemon chip"
+    },
+    {
+        "Name": "2020",
+        "Menu": "",
+        "Recipe": ".75 oz Tito's|.75 oz Bluecoat|.75 oz Olmeca|.75 oz Bacardi|.75 oz Dolin Dry|Stir, strain|Nick & Nora|Lemon twist"
+    },
+    {
+        "Name": "SPICY MARGARITA",
+        "Menu": "",
+        "Recipe": "1 oz Jose Cuervo|1 oz triple sec|1 oz lime juice|.5 oz jalapeno syrup|.5 oz Ancho Reyes Verde|Shake, dump|Goblet|Tajin rim|2 dash habanero tincture|Lime chip"
+    },
+    {
+        "Name": "RANCHWATER",
+        "Menu": "",
+        "Recipe": "Build in Collins|1.5 oz Olmeca|1 oz lime juice|.5 oz Cointreau|Top club soda|Lime slice"
+    },
+    {
+        "Name": "LIGURIAN SEA",
+        "Menu": "",
+        "Recipe": "Build in water glass|1 oz Amsterdam|1 oz Carpano|1 oz Cynar|Short stir|Build in stirrer|1 oz absinthe|.25 oz simple syrup|Stir, strain to layer"
+    },
+    {
+        "Name": "FIRESTORM",
+        "Menu": "",
+        "Recipe": "1 oz Del Maguey Vida|1 oz Peychaud's|1 oz Luxardo|1 oz lime juice|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "MILK MAID",
+        "Menu": "",
+        "Recipe": "1.5 oz El Jimador|.75 oz cream of coconut|.75 oz lime juice|.5 oz cucumber juice|Shake, dump|Goblet|Tajin|Cucumber slice"
+    },
+    {
+        "Name": "LEE SIDE",
+        "Menu": "",
+        "Recipe": "2 oz Bluecoat|1 oz cream of coconut|1 oz lemon juice|.5 oz Velvet Falernum|Shake, dump|Goblet|Cherry"
+    },
+    {
+        "Name": "DURAZNO BLANCO",
+        "Menu": "",
+        "Recipe": "2 oz Altos Plata|1 oz R&W Peach|.5 oz Byrrh|2 dash peach bitters|Stir, strain|Nick & Nora|Lemon twist"
+    },
+    {
+        "Name": "LOTUS",
+        "Menu": "",
+        "Recipe": "1.5 oz Hendricks|1 oz lychee juice|.75 oz St Germain|.5 oz lime juice|.25 oz cucumber juice|Shake, strain|Nick & Nora|Lemon twist"
+    },
+    {
+        "Name": "PINA VERDE",
+        "Menu": "",
+        "Recipe": "1.5 oz Green Chartreuse|1.5 oz pineapple juice|.75 oz cream of coconut|.5 oz lime juice|Shake, dump|Goblet|Mint leaf"
+    },
+    {
+        "Name": "ECLIPSE NO.2",
+        "Menu": "",
+        "Recipe": "2 oz Casamigos Anejo|.75 oz R&W Cherry|.75 oz Aperol|.75 oz lemon juice|Shake, dump|Collins|Float Del Maguey Vida|Lemon twist"
+    },
+    {
+        "Name": "THE BEDMINSTER",
+        "Menu": "",
+        "Recipe": "2.5 oz Kinsey|.5 oz Benedictine|.5 oz Nonino|1 dash Angostura|1 dash Peychaud's|Stir, strain|Nick & Nora|Lemon twist"
+    },
+    {
+        "Name": "CARNIVAL OF RUST",
+        "Menu": "",
+        "Recipe": "1 oz Templeton|1 oz Calvados|1 oz Nonino|1 oz Dolin Red|Stir, strain|Nick & Nora|Cherry"
+    },
+    {
+        "Name": "RATTLESNAKE",
+        "Menu": "",
+        "Recipe": "2 oz Kinsey|.75 oz lemon juice|.5 oz simple syrup|.25 oz absinthe|Egg white|Dry+wet shake, strain|Coupe|Angostura art"
+    },
+    {
+        "Name": "CANNE COLLINS",
+        "Menu": "",
+        "Recipe": "Build in Collins|1 oz Bacardi|1 oz Lo-Fi Sweet|.75 oz lemon juice|.25 oz simple syrup|.25 oz R&W Cherry|Top club soda"
+    },
+    {
+        "Name": "VASECTOMY",
+        "Menu": "",
+        "Recipe": "Build in Collins|1.5 oz Barr Hill|1 oz cranberry juice|.25 oz lemon juice|Top tonic|Orange twist"
+    },
+    {
+        "Name": "TROPICAL DROUGHT",
+        "Menu": "",
+        "Recipe": "Build in Collins|2 oz Bacardi Coconut|3 oz orange juice|.25 oz Campari|Orange chip"
+    },
+    {
+        "Name": "PENTECOSTAL",
+        "Menu": "",
+        "Recipe": "Build in Collins|1.5 oz Famous Grouse|.5 oz Tullamore|.5 oz Plymouth|.5 oz simple syrup|3 dash Angostura|Top ginger ale|Lemon twist"
+    },
+    {
+        "Name": "PARIS TEXAS",
+        "Menu": "",
+        "Recipe": "Build in Collins|1 oz Altos Plata|1 oz Lo-Fi Sweet|1 oz grapefruit juice|.5 oz lemon juice|.5 oz simple syrup|2 dash Peychaud's|Top club soda"
+    },
+    {
+        "Name": "ACCIDENTAL GURU",
+        "Menu": "",
+        "Recipe": "1 oz Tullamore|.5 oz R&W Peach|.5 oz lime juice|.5 oz simple syrup|.25 oz ginger juice|Shake, dump|Collins|Top wheat beer|Lemon twist"
+    },
+    {
+        "Name": "CANDY APPLE",
+        "Menu": "",
+        "Recipe": "1 oz Goslings|1 oz Le Verger|1 oz Faber Vanilla|.5 oz lemon juice|.5 oz maple syrup|3 dash black walnut|Shake, strain|Nick & Nora|Lemon chip"
+    },
+    {
+        "Name": "ICE CUP",
+        "Menu": "",
+        "Recipe": "Build in Collins|1 oz Faber Vanilla|1 oz Pimm's No.1|.75 oz lemon juice|.5 oz mint syrup|.25 oz ginger juice|Top ginger ale|Mint leaf"
+    },
+    {
+        "Name": "POMEGRANATE MARGARITA",
+        "Menu": "",
+        "Recipe": "1 oz Jose Cuervo|1 oz triple sec|1 oz lime juice|.5 oz Faber Pom|.5 oz pomegranate juice|Shake, dump|Goblet|Sugar|Lime chip"
+    },
+    {
+        "Name": "GREEN MULE",
+        "Menu": "",
+        "Recipe": "1 oz Altos Plata|.75 oz Green Chartreuse|.5 oz ginger juice|.5 oz lime juice|.5 oz simple syrup|Mint muddle|Shake, partial dump|Copper mug|Top ginger ale|Lime chip"
+    },
+    {
+        "Name": "EDISON’S MEDICINE",
+        "Menu": "",
+        "Recipe": "1.5 oz cachaça|1 oz lime juice|.5 oz Yellow Chartreuse|.5 oz agave|Basil muddle|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "AVISPA",
+        "Menu": "",
+        "Recipe": "1 oz Altos Plata|1 oz Del Maguey Vida|.75 oz lemon juice|.5 oz Yellow Chartreuse|.5 oz agave|Shake, strain|Coupe|Tajin rim|Lemon chip"
+    },
+    {
+        "Name": "MANHATTAN INDUSTRY",
+        "Menu": "",
+        "Recipe": "2 oz Kinsey|.5 oz Yellow Chartreuse|.5 oz Punt e Mes|.5 oz Benedictine|Stir, strain|Nick & Nora|Cherry"
+    },
+    {
+        "Name": "ARINATO",
+        "Menu": "",
+        "Recipe": "1.5 oz Mezcal|.75 oz Cocchi|.5 oz Dolin Dry|.25 oz Yellow Chartreuse|.25 oz Luxardo|2 dash Peychaud's|1 dash grapefruit bitters|Stir, strain|Nick & Nora|Lemon twist"
+    },
+    {
+        "Name": "KEY LIME PIE",
+        "Menu": "",
+        "Recipe": "1 oz Single Prop|1 oz Bacardi Coconut|.5 oz pineapple juice|.5 oz lime juice|.5 oz cream of coconut|.5 oz heavy cream|Shake, strain|Nick & Nora"
+    },
+    {
+        "Name": "TRADEWINDS",
+        "Menu": "",
+        "Recipe": "1.5 oz Batavia arrack|1 oz pineapple juice|.75 oz lime juice|.5 oz Green Chartreuse|.25 oz simple syrup|Shake, dump|Goblet|Top Angostura|Lime chip"
+    },
+    {
+        "Name": "1919",
+        "Menu": "",
+        "Recipe": "1 oz Punt e Mes|.75 oz Kinsey|.75 oz Goslings|.5 oz Benedictine|2 dash Aztec bitters|Stir, strain|Coupe|Cherry"
+    },
+    {
+        "Name": "OAXACA FIRING SQUAD (MEZCAL FIRING SQUAD)",
+        "Menu": "",
+        "Recipe": "1.5 oz Del Maguey Vida|1 oz lime juice|.5 oz jalapeno syrup|.5 oz Ancho Reyes Verde|.25 oz grenadine|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "TAUTAUER SUNRISE",
+        "Menu": "",
+        "Recipe": "Build in Collins|2 oz Byrrh|1 oz Del Maguey Vida|.5 oz grapefruit juice|Top club soda|Lime chip"
+    },
+    {
+        "Name": "PEPPERMINTINI",
+        "Menu": "",
+        "Recipe": "1 oz absinthe|1 oz crème de cacao|.5 oz heavy cream|.5 oz mint syrup|3 dash Aztec bitters|Shake, strain|Coupe|Chartreuse spritz|Grated nutmeg"
+    },
+    {
+        "Name": "MISER’S RUBY",
+        "Menu": "",
+        "Recipe": "Build in Collins|2 oz Amsterdam|1 oz lemon juice|1 oz honey syrup|.75 oz Campari|Top club soda|Orange chip"
+    },
+    {
+        "Name": "BOUKMAN DAIQUIRI",
+        "Menu": "",
+        "Recipe": ".75 oz Bacardi|.75 oz Korbel|.75 oz Faber Vanilla|.75 oz lime juice|.75 oz simple syrup|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "THREE X",
+        "Menu": "",
+        "Recipe": "2 oz Single Prop|1 oz Dolin Dry|1 oz simple syrup|.5 oz orange juice|.5 oz lime juice|.25 oz lemon juice|Shake, dump|Goblet|Orange twist + lemon juice chip"
+    },
+    {
+        "Name": "DANNY OCEAN",
+        "Menu": "",
+        "Recipe": "1.5 oz El Jimador|.75 oz lemon juice|.75 oz grapefruit juice|.5 oz agave|.25 oz Luxardo|Shake, strain|Coupe|Lemon chip"
+    },
+    {
+        "Name": "LEI MAKER",
+        "Menu": "",
+        "Recipe": "1.5 oz Korbel|.75 oz Canton|2 oz pineapple juice|.5 lemon juice|Shake, dump|Collins|Top Sprite|Lemon chip"
+    },
+    {
+        "Name": "LOVE POTION",
+        "Menu": "",
+        "Recipe": "Build in Collins|Sugar rim|1 oz R&W Peach|1 oz Faber Vanilla|Top grapefruit juice|Orange twist"
+    },
+    {
+        "Name": "GOLDEN NUG",
+        "Menu": "",
+        "Recipe": "1.5 oz Korbel|.25 oz grenadine|.25 oz raspberry syrup|Shake, strain|Flute|Top champagne|Blueberries"
+    },
+    {
+        "Name": "HUG TIGHT",
+        "Menu": "",
+        "Recipe": "Build in flute|.75 oz Del Maguey Vida|.75 oz Sfumato|Top champagne|Orange twist"
+    },
+    {
+        "Name": "LYCHEE ALEXANDER",
+        "Menu": "",
+        "Recipe": "1.5 oz Gunpowder|1 oz lychee juice|.5 oz Lo-Fi Sweet|.5 oz lemon juice|.25 oz lavender syrup|.25 oz simple syrup|2 dash cherry bitters|Shake, strain|Nick & Nora|Cherry|1 tsp cherry infused brandy"
+    },
+    {
+        "Name": "HORSEFEATHERS",
+        "Menu": "",
+        "Recipe": "1 oz Goslings|1 oz Korbel|.5 oz Luxardo|.5 oz Benedictine|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "IRON MAN",
+        "Menu": "",
+        "Recipe": "1 oz Famous Grouse|1 oz Del Maguey Vida|.25 oz Green Chartreuse|.25 oz simple syrup|5 dash Peychaud's|Light basil muddle|Stir, strain|Rocks|Flamed orange twist"
+    },
+    {
+        "Name": "HUATUSCO",
+        "Menu": "",
+        "Recipe": "1 oz Del Maguey Vida|1 oz Campari|1 oz Averna|1 dash grapefruit bitters|1 dash Aztec bitters|Stir, strain|Coupe|Orange chip"
+    },
+    {
+        "Name": "KENTUCKY RIVER",
+        "Menu": "",
+        "Recipe": "2.5 oz Jefferson|.75 oz R&W Peach|2 dash peach bitters|Stir, strain|Nick & Nora|Lemon twist"
+    },
+    {
+        "Name": "LET’S FRIDAY",
+        "Menu": "",
+        "Recipe": "Build in rocks|1.5 oz Kinsey|.5 oz R&W Cherry|.25 oz amaretto|.25 oz Kahlua|Short stir|Cherry"
+    },
+    {
+        "Name": "TIRED SIGH",
+        "Menu": "",
+        "Recipe": "1 oz Buffalo Trace|1 oz calvados|.75 oz Cynar|.5 oz Blume Marillen|.5 oz cardamom syrup|4 dash Angostura|Stir, strain|Coupe|Orange chip"
+    },
+    {
+        "Name": "VIEUX VIVACE",
+        "Menu": "",
+        "Recipe": "Build in rocks|1 oz Kinsey|1 oz Korbel|1 oz Averna|.25 oz Canton|.25 oz ginger juice|Short stir|Lemon twist"
+    },
+    {
+        "Name": "BLACK YEGOLE",
+        "Menu": "",
+        "Recipe": "2 oz Del Maguey Vida|1 oz Averna|.25 oz agave|2 dash orange bitters|1 dash Aztec bitters|Stir, strain|Coupe glass|Flamed orange twist, cherry"
+    },
+    {
+        "Name": "VICKY DOESN’T CARE",
+        "Menu": "",
+        "Recipe": "2 oz Del Maguey Vida|.5 oz Cocchi|.5 oz Velvet Falernum|.5 oz lemon juice|Shake, strain|Coupe|Lime chip|Chartreuse spritz"
+    },
+    {
+        "Name": "GRANDHOUND",
+        "Menu": "",
+        "Recipe": "Build in Collins|1.5 oz Bluecoat|1.5 oz grapefruit juice|.5 oz Grand Marnier|.5 oz mint syrup|.5 oz lime juice|Top club soda|Orange twist"
+    },
+    {
+        "Name": "COIN FLIP",
+        "Menu": "",
+        "Recipe": "1.5 oz Cointreau|.5 oz Averna|.5 oz lemon juice|.5 oz orange juice|Whole egg|Dry + wet shake, strain|Nick & Nora|Orange chip"
+    },
+    {
+        "Name": "BEAMER",
+        "Menu": "",
+        "Recipe": "1 oz Cointreau|1 oz Cocchi|1 oz Velvet Falernum|1 oz lime juice|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "100 YEAR OLD CIGAR",
+        "Menu": "",
+        "Recipe": "1.5 oz Scarlet Ibis|.5 oz Cynar|.5 oz Benedictine|.25 oz Laphroaig|1 dash Angostura|Stir, strain|Coupe|Absinthe rinse"
+    },
+    {
+        "Name": "ARCHIBALD’S LAST MEMORY",
+        "Menu": "",
+        "Recipe": "2 oz Kinsey|.5 oz fernet|.5 oz Benedictine|.25 oz Luxardo|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "ARCHANGEL",
+        "Menu": "",
+        "Recipe": "2.5 oz Hendricks|.75 oz Aperol|.5 oz cucumber juice|Stir, strain|Nick & Nora|Cucumber slice"
+    },
+    {
+        "Name": "SCAVENGER",
+        "Menu": "",
+        "Recipe": "2 oz Kinsey|1 oz orange juice|.5 oz Drambuie|.25 oz grenadine|Shake, strain|Nick & Nora|Absinthe spritz"
+    },
+    {
+        "Name": "KAEM SUM",
+        "Menu": "",
+        "Recipe": "1.5 oz El Jimador|1 oz grapefruit juice|.5 oz lime juice|.5 oz jalapeno syrup|.25 oz olive brine|Shake, strain|Coupe|Black pepper rim|Lime chip"
+    },
+    {
+        "Name": "MATCHA MADE IN HEAVEN",
+        "Menu": "",
+        "Recipe": "1 oz Barr Hill|1 oz matcha|.5 oz Cocchi|.5 oz honey syrup|.5 oz Green Chartreuse|1 oz half and half|2 dash Aztec bitters|2 dash cherry bitters|Shake, dump|Collins"
+    },
+    {
+        "Name": "PACIFIC RIM",
+        "Menu": "",
+        "Recipe": "1 oz Bacardi|1 oz Faber Vanilla|1 oz coconut|.75 oz lime juice|.5 oz St Germain|.5 oz Dolin Dry|Basil muddle|Shake, strain|Coupe|Tajin rim|2 dash habanero tincture|Lime chip"
+    },
+    {
+        "Name": "BENNY’S WORD",
+        "Menu": "",
+        "Recipe": "1 oz Buffalo Trace|1 oz Luxardo|1 oz Benedictine|1 oz lime juice|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "DEAD LADY",
+        "Menu": "",
+        "Recipe": "1 oz Del Maguey Vida|1 oz Aperol|1 oz Velvet Falernum|1 oz lime juice|Shake, strain|Coupe|Tajin rim|1 dash habanero tincture|Lime chip"
+    },
+    {
+        "Name": "THE THINKER",
+        "Menu": "",
+        "Recipe": "1.5 oz Rittenhouse|.5 oz Dolin Dry|.5 oz Dolin Red|.25 oz crème de cacao|.25 oz Grand Marnier|.25 oz Benedictine|2 dash Peychaud's|2 dash orange bitters|Short stir, strain|Coupe|Absinthe spritz|Orange twist"
+    },
+    {
+        "Name": "DEBUTANTE",
+        "Menu": "",
+        "Recipe": "1 oz Buffalo Trace|1 oz R&W Peach|1 oz cinnamon syrup|1 oz lemon juice|2 dash peach bitters|Shake, strain|Coupe|1 dash habanero tincture"
+    },
+    {
+        "Name": "PERFECTIONIST",
+        "Menu": "",
+        "Recipe": "1 oz Tito’s|1 oz Benedictine|1 oz Dolin Dry|.5 oz Carpano|.5 oz Lo-Fi Sweet|1 dash Peychaud's|Stir, strain|Lemon twist"
+    },
+    {
+        "Name": "PORT OF SPAIN",
+        "Menu": "",
+        "Recipe": "1.5 oz Del Maguey Vida|.75 oz lime juice|.75 oz orgeat|.5 oz Angostura|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "CACTUS PATCH",
+        "Menu": "",
+        "Recipe": "1.5 oz Reyez|.75 oz orgeat|.75 oz lime juice|.5 oz St Germain|.5 oz cucumber juice|Shake, strain|Goblet|Float Peychaud's|Mint leaf"
+    },
+    {
+        "Name": "MELE KALIKLI-MOCHA",
+        "Menu": "",
+        "Recipe": "2 oz Kahlua|1 oz cream of coconut|1 oz orgeat|.25 oz Del Maguey Vida|Shake, dump|Pint|Top coffee|Whipped cream|Laphroaig spritz"
+    },
+    {
+        "Name": "BROWN NOTE",
+        "Menu": "",
+        "Recipe": "2 oz fernet|.75 oz orgeat|.75 oz lime juice|Egg white|Dry+wet shake, strain|Coupe|Mint leaf"
+    },
+    {
+        "Name": "CHINGÓN",
+        "Menu": "",
+        "Recipe": "2 oz Altos Plata|.5 oz lime juice|.5 oz orgeat|.5 oz orange juice|.25 oz Benedictine|Shake, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "PERENNIAL 143",
+        "Menu": "",
+        "Recipe": "1 oz Bacardi Coconut|.75 oz lemon juice|.5 oz Del Maguey Vida|.5 oz orgeat|.5 oz honey syrup|Shake, strain|Nick & Nora|Top rosé"
+    },
+    {
+        "Name": "LADY LIBERTY",
+        "Menu": "",
+        "Recipe": "2 oz Bacardi|1 oz lime juice|.75 oz orgeat|.25 oz Blume Marillen|.25 oz Green Chartreuse|Shake, strain|Coupe|Lime chip|Absinthe spritz"
+    },
+    {
+        "Name": "BEELZEBUB",
+        "Menu": "",
+        "Recipe": "1.5 oz Buffalo Trace|.75 oz lemon juice|.5 oz Nonino|.5 oz orgeat|.5 oz Del Maguey Vida|Shake, strain|Coupe|Flamed lemon twist"
+    },
+    {
+        "Name": "STRANGE WEAVER",
+        "Menu": "",
+        "Recipe": "1 oz New Amsterdam|1 oz Single Prop|.75 oz Carpano|.5 oz orgeat|.5 oz Campari|.25 oz lemon juice|Shake, dump|Collins|Orange twist"
+    },
+    {
+        "Name": "DEAD MAN’S MULE",
+        "Menu": "",
+        "Recipe": "Build in copper mug|1 oz Tito’s|.75 oz absinthe|.5 oz orgeat|.5 oz cinnamon syrup|.5 oz lime juice|.5 oz ginger juice|Top ginger ale|Lime chip"
+    },
+    {
+        "Name": "SURF LINER",
+        "Menu": "",
+        "Recipe": "2 oz Kinsey|1 oz pineapple juice|.75 oz lemon juice|.75 oz orgeat|2 dash Peychaud's|Shake, dump|Goblet|Cherry"
+    },
+    {
+        "Name": "ROMAN TWIST",
+        "Menu": "",
+        "Recipe": "2 oz Buffalo Trace|.75 oz Kahlua|.75 oz orgeat|.5 oz orange juice|.5 oz lemon juice|Shake, dump|Collins|Orange wedge"
+    },
+    {
+        "Name": "BRIXTON SOUR",
+        "Menu": "",
+        "Recipe": "1.5 oz Barr Hill|1 oz lemon juice|.75 oz Peychaud's|.75 oz orgeat|Egg white|Dry+wet shake, strain|Coupe|Lemon chip"
+    },
+    {
+        "Name": "ARTICHOKE HOLD",
+        "Menu": "",
+        "Recipe": ".75 oz Cynar|.75 oz Mt Gay|.75 oz lime juice|.5 oz St Germain|.5 oz orgeat|Shake, strain|Coupe|Mint leaf"
+    },
+    {
+        "Name": "SHADDOCK",
+        "Menu": "",
+        "Recipe": "1 oz Bluecoat|1 oz Aperol|1 oz St Germain|1 oz lemon juice|Shake, strain|Coupe|Lemon chip"
+    },
+    {
+        "Name": "RED MORNING LIGHT",
+        "Menu": "",
+        "Recipe": "1.5 oz Famous Grouse|.5 Campari|.5 oz Kahlua|.5 oz Dolin Red|2 dash Aztec bitters|Stir, strain|Coupe|Cherry"
+    },
+    {
+        "Name": "PANKY HANKY",
+        "Menu": "",
+        "Recipe": "Build in Collins|1 oz Bluecoat Barrel|1 oz fernet|1 oz Dolin Dry|.25 oz simple syrup|Top club soda|Lemon slice"
+    },
+    {
+        "Name": "DECOLLETAGE",
+        "Menu": "",
+        "Recipe": "1.5 oz El Jimador|1 oz Byrrh|.5 oz Aperol|.25 oz fernet|Stir, strain|Coupe|Orange twist"
+    },
+    {
+        "Name": "JAMES JOYCE",
+        "Menu": "",
+        "Recipe": "1.5 oz Tullamore|.75 oz Cointreau|.75 oz Dolin Red|.5 oz lime juice|Shake, strain|Coupe|Lime chip"
+    },
+    {
+        "Name": "DUSK AT THE CAPITOL",
+        "Menu": "",
+        "Recipe": "Build in Collins|1 oz Cointreau|1 oz Cocchi|1 oz R&W Cherry|.5 oz lemon juice|Top club soda|Lemon twist"
+    },
+    {
+        "Name": "CARLTON BANKS",
+        "Menu": "",
+        "Recipe": "1 oz Korbel|1 oz R&W cherry|2 dash orange bitters|2 dash Angostura|Stir, strain|Coupe|Top champagne|Orange twist"
+    },
+    {
+        "Name": "ALTA CALIFORNIA",
+        "Menu": "",
+        "Recipe": "2 oz Altos Plata|.75 oz Lo-Fi Sweet|.5 oz Yellow Chartreuse|1 barspoon cinnamon syrup|Stir, strain|Coupe"
+    },
+    {
+        "Name": "FILTHY RICH",
+        "Menu": "",
+        "Recipe": "1 oz Kinsey|1 oz Dolin Dry|.5 oz Campari|.5 oz Benedictine|Stir, strain|Coupe|Lemon twist"
+    },
+    {
+        "Name": "TAILSPIN",
+        "Menu": "",
+        "Recipe": "1 oz Bluecoat|1 oz Dolin Red|1 oz Green Chartreuse|Stir, strain|Coupe|In & out Campari|Lemon twist"
+    },
+    {
+        "Name": "CUAUHTEMOC (“kwow-tay-mock”)",
+        "Menu": "",
+        "Recipe": "2.5 oz Del Maguey Vida|1 oz Lo-Fi Gentian|4 dash orange bitters|Stir, strain|Nick & Nora|In & out Ancho Reyes Verde"
+    },
+    {
+        "Name": "NEWPORT",
+        "Menu": "Shots",
+        "Recipe": ".75 oz Del Maguey Vida",
+        "Tags": ".75 oz fernet"
+    },
+    {
+        "Name": "KAMIKAZE",
+        "Menu": "Shots",
+        "Recipe": "1 oz Tito’s",
+        "Tags": ".25 oz Cointreau"
+    },
+    {
+        "Name": "GREEN TEA",
+        "Menu": "Shots",
+        "Recipe": ".75 oz Tullamore",
+        "Tags": ".25 oz R&W Peach"
+    },
+    {
+        "Name": "WHITE TEA",
+        "Menu": "Shots",
+        "Recipe": ".75 oz Tito’s",
+        "Tags": ".25 oz R&W Peach"
+    },
+    {
+        "Name": "BLACK TEA",
+        "Menu": "Shots",
+        "Recipe": "1 oz Averna",
+        "Tags": ".5 oz lemon juice"
+    },
+    {
+        "Name": "BORN SINNER",
+        "Menu": "Shots",
+        "Recipe": "1 oz Cynar",
+        "Tags": ".25 Green Chartreuse"
+    },
+    {
+        "Name": "RYNAR",
+        "Menu": "Shots",
+        "Recipe": ".75 oz Kinsey",
+        "Tags": ".75 oz Cynar"
+    },
+    {
+        "Name": "BABY GUINNESS",
+        "Menu": "Shots",
+        "Recipe": "1 oz Kahlua",
+        "Tags": ".5 oz Bailey's"
+    },
+    {
+        "Name": "ALICE FROM DALLAS",
+        "Menu": "Shots",
+        "Recipe": ".5 oz Kahlua",
+        "Tags": ".5 oz triple sec"
+    },
+    {
+        "Name": "ALABAMA SLAMMER",
+        "Menu": "Shots",
+        "Recipe": ".5 oz sloe gin",
+        "Tags": ".5 oz amaretto"
+    },
+    {
+        "Name": "RED SNAPPER",
+        "Menu": "Shots",
+        "Recipe": ".5 oz Kinsey",
+        "Tags": ".5 oz amaretto"
+    },
+    {
+        "Name": "QUICK POUSSE",
+        "Menu": "Shots",
+        "Recipe": ".5 oz Angostura",
+        "Tags": ".5 oz Benedictine"
+    },
+    {
+        "Name": "TOOTSIE ROLL",
+        "Menu": "Shots",
+        "Recipe": ".5 oz Kahlua",
+        "Tags": ".5 oz creme de cacao"
+    },
+    {
+        "Name": "B-52",
+        "Menu": "Shots",
+        "Recipe": ".5 oz Bailey's",
+        "Tags": ".5 oz Kahlua"
+    },
+    {
+        "Name": "POLAR BEAR",
+        "Menu": "Shots",
+        "Recipe": ".5 oz Faber Vanilla",
+        "Tags": ".5 oz creme de cacao"
+    },
+    {
+        "Name": "AMBER MOON",
+        "Menu": "Shots",
+        "Recipe": "1.5 oz Kinsey",
+        "Tags": "2 dash hot sauce"
+    },
+    {
+        "Name": "SWEDISH FISH",
+        "Menu": "Shots",
+        "Recipe": ".75 oz Chambord",
+        "Tags": ".5 oz Faber Vanilla"
+    },
+    {
+        "Name": "FERRARI",
+        "Menu": "Shots",
+        "Recipe": ".75 oz Campari",
+        "Tags": ".75 oz fernet"
+    },
+    {
+        "Name": "FIVE HOUR ENERGY",
+        "Menu": "Shots",
+        "Recipe": ".5 oz cream of coconut",
+        "Tags": ".25 oz Bacardi"
+    },
+    {
+        "Name": "POMPEII",
+        "Menu": "Shots",
+        "Recipe": "1 oz grapefruit infused gin",
+        "Tags": ".5 oz Cocchi"
+    },
+    {
+        "Name": "DICKEY FERN",
+        "Menu": "Shots",
+        "Recipe": ".75 oz fernet",
+        "Tags": ".75 oz genepi"
+    }
+]
