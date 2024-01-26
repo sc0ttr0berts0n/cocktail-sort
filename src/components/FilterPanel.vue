@@ -1,52 +1,21 @@
 <script setup lang="ts">
 import { global } from '../store/store';
-
-const filter = () => {
-    return global.drinks.forEach((drink) => {
-        const megaString = `${drink.Name}${drink.Menu}${drink.Recipe}${
-            drink?.Tags ?? ''
-        }`.toLocaleLowerCase();
-        const includeTest =
-            global.include === '' ||
-            megaString.includes(global.include.toLocaleLowerCase());
-        const excludeTest =
-            global.exclude !== '' &&
-            megaString.includes(global.exclude.toLocaleLowerCase());
-
-        drink.hidden = !includeTest || excludeTest;
-    });
-};
+import FilterInput from './FilterInput.vue';
 </script>
 
 <template>
     <div class="filter-panel--container">
         <div class="filter-panel--wrapper">
-            <label
-                class="filter-panel--label-wrapper filter-panel--label-wrapper__include"
-            >
-                <div class="filter-panel--label filter-panel--label__include">
-                    Include
-                </div>
-                <input
-                    @keyup="filter"
-                    v-model="global.include"
-                    class="filter-panel--input filter-panel--input__include"
-                    type="text"
-                />
-            </label>
-            <label
-                class="filter-panel--label-wrapper filter-panel--label-wrapper__exclude"
-            >
-                <div class="filter-panel--label filter-panel--label__exclude">
-                    Exclude
-                </div>
-                <input
-                    @keyup="filter"
-                    v-model="global.exclude"
-                    class="filter-panel--input filter-panel--input__exclude"
-                    type="text"
-                />
-            </label>
+            <FilterInput
+                label="Include"
+                v-model="global.include"
+                iconName="io-search-circle-sharp"
+            />
+            <FilterInput
+                label="Exclude"
+                v-model="global.exclude"
+                iconName="ri-close-circle-fill"
+            />
         </div>
     </div>
 </template>
@@ -56,22 +25,20 @@ const filter = () => {
     &--container {
         display: flex;
         place-items: center;
-        flex-direction: column;
+        justify-content: center;
         padding: 1rem;
-        position: sticky;
+        width: 100%;
+        position: fixed;
         background: #5050ff;
         bottom: 0;
     }
     &--wrapper {
-        max-width: 320px;
+        display: flex;
+        place-items: center;
+        flex-direction: column;
+        gap: 0.5rem;
+        max-width: 400px;
         width: 100%;
-    }
-    &--label-wrapper {
-        width: 100%;
-    }
-    &--input {
-        width: 100%;
-        height: 2rem;
     }
 }
 </style>

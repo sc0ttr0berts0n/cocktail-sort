@@ -15,12 +15,29 @@ const drinks: DrinkListData[] = drinkData
         return a.Name?.localeCompare(b.Name) ?? 0;
     })
     .map((drink, index, arr) => {
-        const lastDrinkChar = arr[index - 1]?.Name[0];
-        const drinkChar = drink.Name[0];
+        /**
+         * Converts all numerics from 0-9 into #, and leaves
+         * regular characters untouched
+         * @param drink a drink key from the imported json
+         * @returns the original character or a '#' if [0-9]
+         */
+        const _determineHeaderChar = (drink: { Name: string }) => {
+            const char = drink?.Name[0] ?? '';
+            const isNumeric = char.match(/[0-9]/);
 
-        const { Name, Recipe, Tags } = drink;
+            return isNumeric ? '#' : char;
+        };
+
+        // track last and current first chars to see if its the
+        // first in sequence to have a new char, flag it if so for
+        // later processing
+        const lastDrinkChar = _determineHeaderChar(arr[index - 1]);
+        const drinkChar = _determineHeaderChar(drink);
+
+        const { Name, Recipe, Tags, ID } = drink;
 
         return {
+            ID,
             Name,
             Recipe,
             Tags,
@@ -30,7 +47,7 @@ const drinks: DrinkListData[] = drinkData
     });
 
 export const global = reactive({
-    drinks: drinks,
-    include: '',
+    drinks,
+    include: 'text',
     exclude: '',
 });

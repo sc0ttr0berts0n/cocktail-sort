@@ -4,8 +4,9 @@ import { global, DrinkListData } from '../store/store';
 
 const props = defineProps<{ metadata: DrinkListData }>();
 
-const tags = props.metadata.Tags;
-const recipe = props.metadata.Recipe.join('<br />');
+const { Tags, Name, Recipe, isFirstChar } = props.metadata;
+
+const recipeHTML = Recipe.join('<br />');
 
 const collapsed = ref(true);
 
@@ -14,25 +15,22 @@ const toggle = () => {
 };
 
 const showLetter = () => {
-    const isFirst = props.metadata.isFirstChar;
-
-    // return global.drinks.some((drink) => {
-
-    const anyVisibleLetters = global.drinks.some((drink) => {
+    const _anyVisibleLetters = global.drinks.some((drink) => {
         return (
             !drink.hidden &&
-            props.metadata.Name[0].toLocaleLowerCase() ===
-                drink.Name[0].toLocaleLowerCase()
+            Name[0].toLocaleLowerCase() === drink.Name[0].toLocaleLowerCase()
         );
     });
 
-    return isFirst && anyVisibleLetters;
+    return isFirstChar && _anyVisibleLetters;
 };
+
+const headerLetter = Name[0].match(/[0-9]/) ? '#' : Name[0];
 </script>
 
 <template>
     <div class="divider" v-if="showLetter()">
-        {{ props.metadata.Name[0].toLocaleUpperCase() }}
+        {{ headerLetter }}
     </div>
     <div
         class="drink--wrapper"
@@ -41,13 +39,13 @@ const showLetter = () => {
         v-if="!props.metadata.hidden"
     >
         <div class="drink--header">
-            <div class="drink--name">{{ props.metadata.Name }}</div>
+            <div class="drink--name">{{ Name }}</div>
             <!-- <div class="drink--menu">{{ props.metadata.Menu }}</div> -->
         </div>
 
-        <div class="drink--recipe" v-html="recipe"></div>
+        <div class="drink--recipe" v-html="recipeHTML"></div>
         <div class="drink--tags">
-            <div class="drink--tag" v-for="tag in tags" :key="tag" v-if="tags">
+            <div class="drink--tag" v-for="tag in Tags" :key="tag" v-if="Tags">
                 {{ tag }}
             </div>
         </div>
@@ -56,6 +54,7 @@ const showLetter = () => {
 
 <style lang="scss" scoped>
 .divider {
+    text-transform: uppercase;
     font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 0.25rem;
@@ -99,14 +98,15 @@ const showLetter = () => {
         }
     }
     &--tags {
+        margin-top: 0.75rem;
         display: flex;
         gap: 0.5rem;
         cursor: pointer;
+        flex-wrap: wrap;
     }
 
     &--tag {
-        margin-top: 0.75rem;
-        background-color: #cccccc;
+        background-color: #888888;
         color: #282828;
         padding: 0.25rem;
         border-radius: 0.5rem;

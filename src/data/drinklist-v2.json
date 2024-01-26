@@ -6068,9 +6068,8 @@
         "Recipe": [
             "Build in shotglass",
             ".75 oz fernet",
-            ".75 oz genepi",
-            "amaro|fernet|bittersweet|shot"
+            ".75 oz genepi"
         ],
-        "Tags": [""]
+        "Tags": ["amaro", "fernet", "bittersweet", "shot"]
     }
 ]
