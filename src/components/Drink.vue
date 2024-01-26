@@ -4,8 +4,8 @@ import { global, DrinkListData } from '../store/store';
 
 const props = defineProps<{ metadata: DrinkListData }>();
 
-const tags = props.metadata.Tags?.split('|');
-const recipe = props.metadata.Recipe.split('|').join('<br />');
+const tags = props.metadata.Tags;
+const recipe = props.metadata.Recipe.join('<br />');
 
 const collapsed = ref(true);
 
@@ -42,7 +42,7 @@ const showLetter = () => {
     >
         <div class="drink--header">
             <div class="drink--name">{{ props.metadata.Name }}</div>
-            <div class="drink--menu">{{ props.metadata.Menu }}</div>
+            <!-- <div class="drink--menu">{{ props.metadata.Menu }}</div> -->
         </div>
 
         <div class="drink--recipe" v-html="recipe"></div>
@@ -75,6 +75,7 @@ const showLetter = () => {
         }
     }
     &--header {
+        text-transform: capitalize;
         display: flex;
         justify-content: space-between;
         align-items: center;

@@ -1,12 +1,11 @@
-import drinkData from '../data/drinklist.json';
+import drinkData from '../data/drinklist-v2.json';
 import { reactive } from 'vue';
 
 export interface DrinkListData {
     ID?: number;
     Name: string;
-    Menu: string;
-    Recipe: string;
-    Tags?: string;
+    Recipe: string[];
+    Tags?: string[];
     isFirstChar: boolean;
     hidden: boolean;
 }
@@ -19,11 +18,10 @@ const drinks: DrinkListData[] = drinkData
         const lastDrinkChar = arr[index - 1]?.Name[0];
         const drinkChar = drink.Name[0];
 
-        const { Name, Menu, Recipe, Tags } = drink;
+        const { Name, Recipe, Tags } = drink;
 
         return {
             Name,
-            Menu,
             Recipe,
             Tags,
             isFirstChar: lastDrinkChar !== drinkChar,
