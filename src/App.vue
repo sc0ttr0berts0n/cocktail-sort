@@ -13,5 +13,10 @@ import FilterPanel from './components/FilterPanel.vue';
 header {
     text-align: center;
     background: #ff5050;
+    color: #282828;
+    font-family: monospace;
+    padding: 0.25rem;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 </style>

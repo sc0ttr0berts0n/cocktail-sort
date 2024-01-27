@@ -30,6 +30,7 @@ const { iconName, label } = props;
 <style lang="scss" scoped>
 @use 'sass:math';
 
+$input-size: 1rem;
 .input {
     &--label-wrapper {
         position: relative;
@@ -43,10 +44,8 @@ const { iconName, label } = props;
         letter-spacing: 0.125rem;
     }
     &--element {
-        $input-size: 1rem;
         padding: 0.5rem 0.25rem;
-        border-top-right-radius: math.div($input-size, 2);
-        border-bottom-right-radius: math.div($input-size, 2);
+        border-radius: 0 $input-size $input-size 0;
         border: 0;
         font-size: 1rem;
         font-weight: bold;
@@ -63,8 +62,7 @@ const { iconName, label } = props;
         background-color: #282828;
         display: flex;
         place-items: center;
-        border-top-left-radius: 1rem;
-        border-bottom-left-radius: 1rem;
+        border-radius: $input-size 0 0 $input-size;
         padding: 0 0.25rem;
 
         svg {

@@ -48,6 +48,6 @@ const drinks: DrinkListData[] = drinkData
 
 export const global = reactive({
     drinks,
-    include: 'text',
+    include: '',
     exclude: '',
 });
