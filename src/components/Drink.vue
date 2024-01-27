@@ -29,6 +29,10 @@ const showLetter = () => {
 const headerLetter = Name[0].match(/[0-9]/) ? '#' : Name[0];
 
 const addTagToInclude = (tag: string) => {
+    if (global.include.includes(tag)) {
+        return;
+    }
+
     global.include = `${global.include} ${tag}`.trim();
     useFilterDrinks();
 };
@@ -40,7 +44,7 @@ const addTagToInclude = (tag: string) => {
     </div>
     <div
         class="drink--wrapper"
-        click="toggle"
+        @click="toggle"
         :class="{ 'drink--wrapper__collapsed': collapsed }"
         v-if="!props.metadata.hidden"
     >
@@ -56,7 +60,7 @@ const addTagToInclude = (tag: string) => {
                 v-for="tag in Tags"
                 :key="tag"
                 v-if="Tags"
-                @click="addTagToInclude(tag)"
+                @click.stop="addTagToInclude(tag)"
             >
                 {{ tag }}
             </div>
