@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 import { global, DrinkListData } from '../store/store';
 import { useFilterDrinks } from '../compostables/filterDrinks';
+import Tag from './Tag.vue';
 
 const props = defineProps<{ metadata: DrinkListData }>();
 
@@ -105,6 +106,10 @@ const addTagToInclude = (tag: string) => {
         font-size: 1.5rem;
         font-weight: bold;
         line-height: 1;
+        color: #ffffff;
+        @media (prefers-color-scheme: light) {
+            color: #282828;
+        }
     }
     &--menu {
         line-height: 1;
@@ -115,6 +120,11 @@ const addTagToInclude = (tag: string) => {
     &--recipe {
         line-height: 1.1;
         margin-top: 0.5rem;
+        color: #ffffff;
+        @media (prefers-color-scheme: light) {
+            color: #282828;
+        }
+
         .drink--wrapper__collapsed & {
             display: none;
         }

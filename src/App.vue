@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import DrinkList from './components/DrinkList.vue';
 import FilterPanel from './components/FilterPanel.vue';
+import pjson from '../package.json';
 </script>
 
 <template>
-    <header>🍸 Cocktail Sort</header>
+    <header>🍸 Cocktail Sort (v{{ pjson.version }})</header>
     <FilterPanel />
     <DrinkList />
 </template>
