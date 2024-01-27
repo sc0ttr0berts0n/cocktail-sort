@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { global } from '../store/store';
+import { useFilterDrinks } from '../compostables/filterDrinks';
 
 const model = defineModel();
 const props = defineProps<{
@@ -8,22 +8,6 @@ const props = defineProps<{
 }>();
 
 const { iconName, label } = props;
-
-const filter = () => {
-    return global.drinks.forEach((drink) => {
-        const megaString = `${drink.Name}${drink.Recipe}${
-            drink?.Tags ?? ''
-        }`.toLocaleLowerCase();
-        const includeTest =
-            global.include === '' ||
-            megaString.includes(global.include.toLocaleLowerCase());
-        const excludeTest =
-            global.exclude !== '' &&
-            megaString.includes(global.exclude.toLocaleLowerCase());
-
-        drink.hidden = !includeTest || excludeTest;
-    });
-};
 </script>
 
 <template>
@@ -34,7 +18,7 @@ const filter = () => {
                 <v-icon :name="iconName" />
             </div>
             <input
-                @keyup="filter"
+                @keyup="useFilterDrinks"
                 v-model="model"
                 class="input--element"
                 type="text"
@@ -45,6 +29,7 @@ const filter = () => {
 
 <style lang="scss" scoped>
 @use 'sass:math';
+
 .input {
     &--label-wrapper {
         position: relative;

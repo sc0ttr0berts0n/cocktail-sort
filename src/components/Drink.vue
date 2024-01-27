@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import { global, DrinkListData } from '../store/store';
+import { useFilterDrinks } from '../compostables/filterDrinks';
 
 const props = defineProps<{ metadata: DrinkListData }>();
 
@@ -26,6 +27,11 @@ const showLetter = () => {
 };
 
 const headerLetter = Name[0].match(/[0-9]/) ? '#' : Name[0];
+
+const addTagToInclude = (tag: string) => {
+    global.include = `${global.include} ${tag}`.trim();
+    useFilterDrinks();
+};
 </script>
 
 <template>
@@ -34,7 +40,7 @@ const headerLetter = Name[0].match(/[0-9]/) ? '#' : Name[0];
     </div>
     <div
         class="drink--wrapper"
-        @click="toggle"
+        click="toggle"
         :class="{ 'drink--wrapper__collapsed': collapsed }"
         v-if="!props.metadata.hidden"
     >
@@ -45,7 +51,13 @@ const headerLetter = Name[0].match(/[0-9]/) ? '#' : Name[0];
 
         <div class="drink--recipe" v-html="recipeHTML"></div>
         <div class="drink--tags">
-            <div class="drink--tag" v-for="tag in Tags" :key="tag" v-if="Tags">
+            <div
+                class="drink--tag"
+                v-for="tag in Tags"
+                :key="tag"
+                v-if="Tags"
+                @click="addTagToInclude(tag)"
+            >
                 {{ tag }}
             </div>
         </div>
