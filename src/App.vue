@@ -5,15 +5,15 @@ import FilterPanel from './components/FilterPanel.vue';
 
 <template>
     <header>🍸 Cocktail Sort</header>
-    <DrinkList />
     <FilterPanel />
+    <DrinkList />
 </template>
 
 <style scoped>
 header {
     text-align: center;
-    background: #ff5050;
-    color: #282828;
+    background: #5050ff;
+    color: #ffffff;
     font-family: monospace;
     padding: 0.25rem;
     text-transform: uppercase;

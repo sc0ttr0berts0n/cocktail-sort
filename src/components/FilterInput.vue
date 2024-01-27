@@ -8,6 +8,11 @@ const props = defineProps<{
 }>();
 
 const { iconName, label } = props;
+
+const onKeyUp = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    useFilterDrinks();
+};
 </script>
 
 <template>
@@ -18,10 +23,11 @@ const { iconName, label } = props;
                 <v-icon :name="iconName" />
             </div>
             <input
-                @keyup="useFilterDrinks"
+                @keyup="onKeyUp"
                 v-model="model"
                 class="input--element"
-                type="text"
+                type="search"
+                name="q"
             />
         </div>
     </label>
