@@ -82,8 +82,14 @@ const addTagToInclude = (tag: string) => {
         background-color: #ffffff11;
         border-radius: 0.5rem;
         transition: 100ms;
+        @media (prefers-color-scheme: light) {
+            background-color: #00000011;
+        }
         &:hover {
             background-color: #ffffff33;
+            @media (prefers-color-scheme: light) {
+                background-color: #bbbbbb;
+            }
         }
         &.drink--wrapper__collapsed {
             cursor: pointer;
@@ -116,7 +122,7 @@ const addTagToInclude = (tag: string) => {
     &--tags {
         margin-top: 0.75rem;
         display: flex;
-        gap: 0.5rem;
+        gap: 0.375rem;
         cursor: pointer;
         flex-wrap: wrap;
     }
@@ -124,7 +130,7 @@ const addTagToInclude = (tag: string) => {
     &--tag {
         background-color: #888888;
         color: #282828;
-        padding: 0.25rem;
+        padding: 0.25rem 0.375rem;
         border-radius: 0.5rem;
         line-height: 1;
         font-weight: bold;
@@ -132,8 +138,16 @@ const addTagToInclude = (tag: string) => {
         font-size: 0.75rem;
         white-space: nowrap;
         transition: 100ms;
+        @media (prefers-color-scheme: light) {
+            background-color: #cccccc;
+            color: #444444;
+        }
         &:hover {
             background-color: #ffffff;
+            @media (prefers-color-scheme: light) {
+                background-color: #282828;
+                color: #ffffff;
+            }
         }
     }
 }

@@ -43,13 +43,12 @@ const clearFilters = () => {
 </template>
 
 <style lang="scss" scoped>
+@debug lol;
 .drink-list {
     &--wrapper {
         padding: 0.5rem;
         margin-bottom: 4rem;
-        & > *:nth-child(even) {
-            background-color: #ffffff11;
-        }
+        max-width: calc(800 / 16 * 1rem);
     }
     &--counter-wrapper {
         display: flex;

@@ -11,6 +11,7 @@ import FilterPanel from './components/FilterPanel.vue';
 
 <style scoped>
 header {
+    width: 100%;
     text-align: center;
     background: #5050ff;
     color: #ffffff;

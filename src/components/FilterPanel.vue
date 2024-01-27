@@ -3,6 +3,8 @@ import { global } from '../store/store';
 import FilterInput from './FilterInput.vue';
 import { ref } from 'vue';
 
+const darkMode = global.settings;
+
 const isVisible = ref(true);
 
 const toggleVisibility = () => {
@@ -27,7 +29,7 @@ const toggleVisibility = () => {
             </div>
         </div>
         <div class="filter-panel--tab" @click="toggleVisibility">
-            <v-icon name="fa-sliders-h" />
+            <v-icon name="fa-sliders-h" fill="#ffffff" />
         </div>
     </div>
 </template>

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useFilterDrinks } from '../compostables/filterDrinks';
+import { global } from '../store/store';
 
 const model = defineModel();
 const props = defineProps<{
@@ -9,6 +10,8 @@ const props = defineProps<{
 
 const { iconName, label } = props;
 
+const { darkMode } = global.settings;
+
 const onKeyUp = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     useFilterDrinks();
@@ -17,18 +20,17 @@ const onKeyUp = () => {
 
 <template>
     <label class="input--label-wrapper">
-        <div class="input--label">{{ label }}</div>
+        <div class="input--label">
+            {{ label }}
+        </div>
         <div class="input--input-wrapper">
             <div class="input--icon-wrapper">
-                <v-icon :name="iconName" />
+                <v-icon
+                    :name="iconName"
+                    :fill="global.settings.darkMode ? '#ffffff' : '#5050ff'"
+                />
             </div>
-            <input
-                @keyup="onKeyUp"
-                v-model="model"
-                class="input--element"
-                type="search"
-                name="q"
-            />
+            <input @keyup="onKeyUp" v-model="model" class="input--element" />
         </div>
     </label>
 </template>
@@ -48,6 +50,7 @@ $input-size: 1rem;
         padding-left: 0.375rem;
         text-transform: uppercase;
         letter-spacing: 0.125rem;
+        color: #ffffff;
     }
     &--element {
         padding: 0.5rem 0.25rem;
@@ -59,6 +62,11 @@ $input-size: 1rem;
         width: 100%;
         height: 2rem;
         background-color: #282828;
+        color: #ffffff;
+        @media (prefers-color-scheme: light) {
+            background-color: #ffffff;
+            color: #282828;
+        }
     }
     &--input-wrapper {
         display: flex;
@@ -70,6 +78,10 @@ $input-size: 1rem;
         place-items: center;
         border-radius: $input-size 0 0 $input-size;
         padding: 0 0.25rem;
+        @media (prefers-color-scheme: light) {
+            background-color: #ffffff;
+            color: #282828;
+        }
 
         svg {
             height: 1.75rem;

@@ -10,6 +10,14 @@ export interface DrinkListData {
     hidden: boolean;
 }
 
+const darkMode = window?.matchMedia('(prefers-color-scheme: dark)').matches;
+
+window
+    .matchMedia('(prefers-color-scheme: dark)')
+    .addEventListener('change', (e) => {
+        global.settings.darkMode = e.matches;
+    });
+
 const drinks: DrinkListData[] = drinkData
     .sort((a, b) => {
         return a.Name?.localeCompare(b.Name) ?? 0;
@@ -50,4 +58,7 @@ export const global = reactive({
     drinks,
     include: '',
     exclude: '',
+    settings: {
+        darkMode,
+    },
 });
