@@ -56,15 +56,7 @@ const addTagToInclude = (tag: string) => {
 
         <div class="drink--recipe" v-html="recipeHTML"></div>
         <div class="drink--tags">
-            <div
-                class="drink--tag"
-                v-for="tag in Tags"
-                :key="tag"
-                v-if="Tags"
-                @click.stop="addTagToInclude(tag)"
-            >
-                {{ tag }}
-            </div>
+            <Tag v-for="tag in Tags" :key="tag" v-if="Tags" :name="tag" />
         </div>
     </div>
 </template>
@@ -75,6 +67,10 @@ const addTagToInclude = (tag: string) => {
     font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 0.25rem;
+    color: #ffffff;
+    @media (prefers-color-scheme: light) {
+        color: #282828;
+    }
 }
 .drink {
     &--wrapper {
@@ -162,4 +158,3 @@ const addTagToInclude = (tag: string) => {
     }
 }
 </style>
-../store/store

@@ -49,6 +49,7 @@ const clearFilters = () => {
         padding: 0.5rem;
         margin-bottom: 4rem;
         max-width: calc(800 / 16 * 1rem);
+        width: 100%;
     }
     &--counter-wrapper {
         display: flex;
