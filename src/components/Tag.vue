@@ -3,26 +3,13 @@ import { global } from '../store/store';
 import { useFilterDrinks } from '../compostables/filterDrinks';
 import { computed, ref } from 'vue';
 import Tag from './Tag.vue';
+import { addOrRemoveTagFromInclude } from '../compostables/toggleTagFromInclude';
 
 const props = defineProps<{ name: string }>();
 
 const { name } = props;
 
 const el = ref<HTMLDivElement | null>(null);
-
-const addOrRemoveTagFromInclude = () => {
-    if (global.include.includes(name)) {
-        global.include = global.include
-            .split(name)
-            .join(' ')
-            .replace(/\s+/g, ' ')
-            .trim();
-    } else {
-        global.include = `${global.include} ${name}`.trim();
-    }
-
-    useFilterDrinks();
-};
 
 const isActive = computed(() => {
     return global.include.includes(name);
@@ -34,7 +21,7 @@ const isActive = computed(() => {
         ref="el"
         class="tag"
         :class="{ active: isActive }"
-        @click.stop="addOrRemoveTagFromInclude"
+        @click.stop="addOrRemoveTagFromInclude(name)"
     >
         {{ name }}
     </div>
