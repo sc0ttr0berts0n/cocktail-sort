@@ -1,4 +1,4 @@
-import drinkData from '../data/drinklist-v2.json';
+import drinkData from '../data/drinklist-v3.json';
 import { reactive } from 'vue';
 
 export interface DrinkListData {
