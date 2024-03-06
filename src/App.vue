@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import DrinkList from './components/DrinkList.vue';
+import CocktailList from './components/CocktailList.vue';
 import FilterPanel from './components/FilterPanel.vue';
 import pjson from '../package.json';
 </script>
@@ -7,7 +7,7 @@ import pjson from '../package.json';
 <template>
     <header>🍸 Cocktail Sort (v{{ pjson.version }})</header>
     <FilterPanel />
-    <DrinkList />
+    <CocktailList />
 </template>
 
 <style scoped>
@@ -22,3 +22,4 @@ header {
     font-weight: bold;
 }
 </style>
+./components/CocktailList.vue

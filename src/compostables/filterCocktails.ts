@@ -1,9 +1,9 @@
 import { global } from '../store/store';
 
-export const useFilterDrinks = () => {
-    return global.drinks.forEach((drink) => {
-        const megaString = `${drink.Name}${drink.Recipe}${
-            drink?.Tags ?? ''
+export const useFilterCocktails = () => {
+    return global.drinks?.forEach((drink) => {
+        const megaString = `${drink.name}${drink.recipe}${
+            drink?.tags ?? ''
         }`.toLocaleLowerCase();
         const includes = global.include.toLocaleLowerCase().trim().split(/\s+/);
         const excludes = global.exclude.toLocaleLowerCase().trim().split(/\s+/);

@@ -2,8 +2,8 @@
 import { global } from '../store/store';
 import FilterInput from './FilterInput.vue';
 import { ref } from 'vue';
-import { useFilterDrinks } from '../compostables/filterDrinks';
 import { addOrRemoveTagFromInclude } from '../compostables/toggleTagFromInclude';
+import { useFilterCocktails } from '../compostables/filterCocktails';
 
 const darkMode = global.settings;
 
@@ -15,7 +15,7 @@ const toggleVisibility = () => {
 
 const setInclude = (word: string) => {
     global.include = word;
-    useFilterDrinks();
+    useFilterCocktails();
 };
 </script>
 
@@ -124,3 +124,4 @@ const setInclude = (word: string) => {
     }
 }
 </style>
+../compostables/filterCocktails
