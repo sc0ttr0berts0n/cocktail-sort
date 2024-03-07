@@ -44,7 +44,9 @@ export const useCreateCocktailListState = (
                 name,
                 recipe,
                 menu,
-                tags: tags ? [menu, ...tags] : undefined,
+                tags: tags
+                    ? [...(menu === 'unsorted' ? [] : [menu]), ...tags]
+                    : undefined,
                 isFirstChar: lastDrinkChar !== drinkChar,
                 hidden: false,
             };

@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { global } from '../store/store';
-import { useFilterDrinks } from '../compostables/filterDrinks';
 import { computed, ref } from 'vue';
 import Tag from './Tag.vue';
 import { addOrRemoveTagFromInclude } from '../compostables/toggleTagFromInclude';
