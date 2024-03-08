@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { global } from '../store/store';
 import { computed, ref } from 'vue';
-import Tag from './Tag.vue';
 import { addOrRemoveTagFromInclude } from '../compostables/toggleTagFromInclude';
 
 const props = defineProps<{ name: string }>();
@@ -11,7 +10,7 @@ const { name } = props;
 const el = ref<HTMLDivElement | null>(null);
 
 const isActive = computed(() => {
-    return global.include.includes(name);
+    return global.include.includes(name.toLocaleLowerCase());
 });
 </script>
 
