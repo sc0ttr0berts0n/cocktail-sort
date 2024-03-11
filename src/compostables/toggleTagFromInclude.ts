@@ -1,5 +1,5 @@
 import { global } from '../store/store';
-import { useFilterDrinks } from './filterDrinks';
+import { useFilterCocktails } from './filterCocktails';
 
 export const addOrRemoveTagFromInclude = (name: string) => {
     if (global.include.includes(name)) {
@@ -12,5 +12,5 @@ export const addOrRemoveTagFromInclude = (name: string) => {
         global.include = `${global.include} ${name}`.trim();
     }
 
-    useFilterDrinks();
+    useFilterCocktails();
 };

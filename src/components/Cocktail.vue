@@ -1,14 +1,15 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import { global, DrinkListData } from '../store/store';
-import { useFilterDrinks } from '../compostables/filterDrinks';
+import { global } from '../store/store';
 import Tag from './Tag.vue';
+import { useFilterCocktails } from '../compostables/filterCocktails';
+import { CocktailListState } from '../compostables/createCocktailListState';
 
-const props = defineProps<{ metadata: DrinkListData }>();
+const props = defineProps<{ metadata: CocktailListState }>();
 
-const { Tags, Name, Recipe, isFirstChar } = props.metadata;
+const { tags, name, recipe, isFirstChar } = props.metadata;
 
-const recipeHTML = Recipe.join('<br />');
+const recipeHTML = recipe.join('<br />');
 
 const collapsed = ref(true);
 
@@ -17,17 +18,17 @@ const toggle = () => {
 };
 
 const showLetter = () => {
-    const _anyVisibleLetters = global.drinks.some((drink) => {
+    const _anyVisibleLetters = global.drinks?.some((drink) => {
         return (
             !drink.hidden &&
-            Name[0].toLocaleLowerCase() === drink.Name[0].toLocaleLowerCase()
+            name[0].toLocaleLowerCase() === drink.name[0].toLocaleLowerCase()
         );
     });
 
     return isFirstChar && _anyVisibleLetters;
 };
 
-const headerLetter = Name[0].match(/[0-9]/) ? '#' : Name[0];
+const headerLetter = name[0].match(/[0-9]/) ? '#' : name[0];
 
 const addTagToInclude = (tag: string) => {
     if (global.include.includes(tag)) {
@@ -35,7 +36,7 @@ const addTagToInclude = (tag: string) => {
     }
 
     global.include = `${global.include} ${tag}`.trim();
-    useFilterDrinks();
+    useFilterCocktails();
 };
 </script>
 
@@ -50,13 +51,13 @@ const addTagToInclude = (tag: string) => {
         v-if="!props.metadata.hidden"
     >
         <div class="drink--header">
-            <div class="drink--name">{{ Name }}</div>
+            <div class="drink--name">{{ name }}</div>
             <!-- <div class="drink--menu">{{ props.metadata.Menu }}</div> -->
         </div>
 
         <div class="drink--recipe" v-html="recipeHTML"></div>
         <div class="drink--tags">
-            <Tag v-for="tag in Tags" :key="tag" v-if="Tags" :name="tag" />
+            <Tag v-for="tag in tags" :key="tag" v-if="tags" :name="tag" />
         </div>
     </div>
 </template>
@@ -158,3 +159,4 @@ const addTagToInclude = (tag: string) => {
     }
 }
 </style>
+../compostables/filterCocktails../compostables/processCocktailData../compostables/c

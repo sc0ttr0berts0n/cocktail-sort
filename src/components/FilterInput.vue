@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useFilterDrinks } from '../compostables/filterDrinks';
+import { useFilterCocktails } from '../compostables/filterCocktails';
 import { global } from '../store/store';
 
 const model = defineModel();
@@ -14,7 +14,7 @@ const { darkMode } = global.settings;
 
 const onKeyUp = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    useFilterDrinks();
+    useFilterCocktails();
 };
 </script>
 
@@ -91,3 +91,4 @@ $input-size: 1rem;
     }
 }
 </style>
+../compostables/filterCocktails
