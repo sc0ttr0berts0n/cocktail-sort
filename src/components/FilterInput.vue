@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// DEPRECATED
 import { useFilterCocktails } from '../compostables/filterCocktails';
 import { global } from '../store/store';
 

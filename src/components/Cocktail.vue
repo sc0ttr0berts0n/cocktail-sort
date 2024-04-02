@@ -4,6 +4,7 @@ import { global } from '../store/store';
 import Tag from './Tag.vue';
 import { useFilterCocktails } from '../compostables/filterCocktails';
 import { CocktailListState } from '../compostables/createCocktailListState';
+import TagList from './TagList.vue';
 
 const props = defineProps<{ metadata: CocktailListState }>();
 
@@ -29,15 +30,6 @@ const showLetter = () => {
 };
 
 const headerLetter = name[0].match(/[0-9]/) ? '#' : name[0];
-
-const addTagToInclude = (tag: string) => {
-    if (global.include.includes(tag)) {
-        return;
-    }
-
-    global.include = `${global.include} ${tag}`.trim();
-    useFilterCocktails();
-};
 </script>
 
 <template>
@@ -56,9 +48,7 @@ const addTagToInclude = (tag: string) => {
         </div>
 
         <div class="drink--recipe" v-html="recipeHTML"></div>
-        <div class="drink--tags">
-            <Tag v-for="tag in tags" :key="tag" v-if="tags" :name="tag" />
-        </div>
+        <TagList :tags="tags" v-if="tags" />
     </div>
 </template>
 
@@ -134,29 +124,29 @@ const addTagToInclude = (tag: string) => {
         flex-wrap: wrap;
     }
 
-    &--tag {
-        background-color: #888888;
-        color: #282828;
-        padding: 0.25rem 0.375rem;
-        border-radius: 0.5rem;
-        line-height: 1;
-        font-weight: bold;
-        text-transform: uppercase;
-        font-size: 0.75rem;
-        white-space: nowrap;
-        transition: 100ms;
-        @media (prefers-color-scheme: light) {
-            background-color: #cccccc;
-            color: #444444;
-        }
-        &:hover {
-            background-color: #ffffff;
-            @media (prefers-color-scheme: light) {
-                background-color: #282828;
-                color: #ffffff;
-            }
-        }
-    }
+    // &--tag {
+    //     background-color: #888888;
+    //     color: #282828;
+    //     padding: 0.25rem 0.375rem;
+    //     border-radius: 0.5rem;
+    //     line-height: 1;
+    //     font-weight: bold;
+    //     text-transform: uppercase;
+    //     font-size: 0.75rem;
+    //     white-space: nowrap;
+    //     transition: 100ms;
+    //     @media (prefers-color-scheme: light) {
+    //         background-color: #cccccc;
+    //         color: #444444;
+    //     }
+    //     &:hover {
+    //         background-color: #ffffff;
+    //         @media (prefers-color-scheme: light) {
+    //             background-color: #282828;
+    //             color: #ffffff;
+    //         }
+    //     }
+    // }
 }
 </style>
 ../compostables/filterCocktails../compostables/processCocktailData../compostables/c
