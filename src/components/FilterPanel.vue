@@ -26,7 +26,7 @@ const setInclude = (word: string) => {
                 <FilterInput
                     label="Include"
                     v-model="global.include"
-                    iconName="io-search-circle-sharp"
+                    iconName="ri-close-circle-fill"
                 />
                 <FilterInput
                     label="Exclude"
@@ -107,4 +107,3 @@ const setInclude = (word: string) => {
     }
 }
 </style>
-../compostables/filterCocktails

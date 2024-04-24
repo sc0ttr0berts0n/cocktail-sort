@@ -8,7 +8,7 @@ const { tags } = toRefs(props);
 </script>
 
 <template>
-    <div class="tag-list--wrapper">
+    <div class="tag-list--wrapper" v-if="tags.length > 0">
         <Tag v-for="tag in tags" :key="tag" v-if="tags" :name="tag" />
     </div>
 </template>
@@ -16,7 +16,6 @@ const { tags } = toRefs(props);
 <style lang="scss" scoped>
 .tag-list {
     &--wrapper {
-        padding: 0.5rem;
         max-width: calc(800 / 16 * 1rem);
         width: 100%;
         display: flex;

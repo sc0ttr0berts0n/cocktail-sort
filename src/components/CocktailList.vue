@@ -60,7 +60,6 @@ useSanityClient
 @debug lol;
 .drink-list {
     &--wrapper {
-        padding: 0.5rem;
         margin-bottom: 4rem;
         max-width: calc(800 / 16 * 1rem);
         width: 100%;

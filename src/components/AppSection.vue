@@ -32,9 +32,11 @@ const isHidden = ref(collapsed);
     display: flex;
     border-bottom: 1px solid white;
     padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
     align-items: center;
 }
 .content-wrapper {
+    padding: 1rem 0.5rem;
     &.hidden {
         display: none;
     }

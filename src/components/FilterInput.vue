@@ -1,5 +1,4 @@
 <script setup lang="ts">
-// DEPRECATED
 import { useFilterCocktails } from '../compostables/filterCocktails';
 import { global } from '../store/store';
 
@@ -17,6 +16,11 @@ const onKeyUp = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     useFilterCocktails();
 };
+
+const clear = () => {
+    model.value = '';
+    useFilterCocktails();
+};
 </script>
 
 <template>
@@ -25,13 +29,18 @@ const onKeyUp = () => {
             {{ label }}
         </div>
         <div class="input--input-wrapper">
-            <div class="input--icon-wrapper">
+            <input
+                @keyup="onKeyUp"
+                v-model="model"
+                class="input--element"
+                :class="{ 'input--element__round-right': !model }"
+            />
+            <button @click="clear" v-if="model" class="input--clear-button">
                 <v-icon
                     :name="iconName"
                     :fill="global.settings.darkMode ? '#ffffff' : '#5050ff'"
                 />
-            </div>
-            <input @keyup="onKeyUp" v-model="model" class="input--element" />
+            </button>
         </div>
     </label>
 </template>
@@ -44,6 +53,10 @@ $input-size: 1rem;
     &--label-wrapper {
         position: relative;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        margin-top: 0.5rem;
     }
     &--label {
         font-size: 0.75rem;
@@ -54,9 +67,10 @@ $input-size: 1rem;
         color: #ffffff;
     }
     &--element {
-        padding: 0.5rem 0.25rem;
+        padding: 0.5rem 0.75rem;
         border-radius: 0 $input-size $input-size 0;
         border: 0;
+        border-radius: $input-size 0 0 $input-size;
         font-size: 1rem;
         font-weight: bold;
         line-height: 1;
@@ -64,6 +78,10 @@ $input-size: 1rem;
         height: 2rem;
         background-color: #282828;
         color: #ffffff;
+        &__round-right {
+            border-radius: $input-size;
+        }
+
         @media (prefers-color-scheme: light) {
             background-color: #ffffff;
             color: #282828;
@@ -74,11 +92,8 @@ $input-size: 1rem;
         margin-top: 0.125rem;
     }
     &--icon-wrapper {
-        background-color: #282828;
         display: flex;
         place-items: center;
-        border-radius: $input-size 0 0 $input-size;
-        padding: 0 0.25rem;
         @media (prefers-color-scheme: light) {
             background-color: #ffffff;
             color: #282828;
@@ -89,6 +104,13 @@ $input-size: 1rem;
             width: auto;
             // transform: translate(0.125rem, 0.3175rem);
         }
+    }
+    &--clear-button {
+        align-self: flex-end;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 0 0.25rem 0.25rem 0;
+        border: 0;
     }
 }
 </style>

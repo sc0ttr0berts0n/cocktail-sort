@@ -14,7 +14,7 @@ import { global } from './store/store';
         <FilterInput
             label="Include"
             v-model="global.include"
-            iconName="io-search-circle-sharp"
+            iconName="ri-close-circle-fill"
         />
         <FilterInput
             label="Exclude"
