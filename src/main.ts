@@ -6,9 +6,10 @@ import {
     IoSearchCircleSharp,
     RiCloseCircleFill,
     FaSlidersH,
+    MdKeyboardarrowrightSharp,
 } from 'oh-vue-icons/icons';
 
-addIcons(IoSearchCircleSharp, RiCloseCircleFill, FaSlidersH);
+addIcons(IoSearchCircleSharp, RiCloseCircleFill, FaSlidersH, MdKeyboardarrowrightSharp);
 
 const app = createApp(App);
 

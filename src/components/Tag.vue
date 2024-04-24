@@ -10,7 +10,9 @@ const { name } = props;
 const el = ref<HTMLDivElement | null>(null);
 
 const isActive = computed(() => {
-    return global.include.includes(name.toLocaleLowerCase());
+    return global.include
+        .toLocaleLowerCase()
+        .includes(name.toLocaleLowerCase());
 });
 </script>
 

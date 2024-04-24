@@ -35,23 +35,6 @@ const setInclude = (word: string) => {
                 />
             </div>
         </div>
-        <div class="filter-panel--quick-links-container">
-            <div class="filter-panel--quick-links-wrapper">
-                <div
-                    class="filter-panel--quick-link"
-                    @click="addOrRemoveTagFromInclude('sassafras')"
-                >
-                    Sassafras
-                </div>
-                <div
-                    class="filter-panel--quick-link"
-                    @click="addOrRemoveTagFromInclude('48 record bar')"
-                >
-                    48 Record Bar
-                </div>
-                <!-- <div class="filter-panel--quick-link">Favorites</div> -->
-            </div>
-        </div>
         <div class="filter-panel--tab" @click="toggleVisibility">
             <v-icon name="fa-sliders-h" fill="#ffffff" />
         </div>
